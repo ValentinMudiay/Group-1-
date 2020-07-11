@@ -19,11 +19,12 @@ CREATE TABLE `wppu_revisr` (
   `event` varchar(42) COLLATE utf8mb4_unicode_520_ci NOT NULL,
   `user` varchar(60) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wppu_revisr` WRITE;
 /*!40000 ALTER TABLE `wppu_revisr` DISABLE KEYS */;
+INSERT INTO `wppu_revisr` VALUES (1,'2020-07-11 14:07:16','Successfully backed up the database.','backup','Revisr Bot'),(2,'2020-07-11 14:07:16','The daily backup was successful.','backup','Revisr Bot');
 /*!40000 ALTER TABLE `wppu_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
