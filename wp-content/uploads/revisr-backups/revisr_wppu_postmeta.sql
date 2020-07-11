@@ -20,12 +20,12 @@ CREATE TABLE `wppu_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wppu_postmeta` WRITE;
 /*!40000 ALTER TABLE `wppu_postmeta` DISABLE KEYS */;
-INSERT INTO `wppu_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,3,'_wp_page_template','default');
+INSERT INTO `wppu_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,3,'_wp_page_template','default'),(7,7,'_edit_lock','1594476685:1');
 /*!40000 ALTER TABLE `wppu_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

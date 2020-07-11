@@ -19,12 +19,12 @@ CREATE TABLE `wppu_revisr` (
   `event` varchar(42) COLLATE utf8mb4_unicode_520_ci NOT NULL,
   `user` varchar(60) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wppu_revisr` WRITE;
 /*!40000 ALTER TABLE `wppu_revisr` DISABLE KEYS */;
-INSERT INTO `wppu_revisr` VALUES (1,'2020-07-11 14:07:16','Successfully backed up the database.','backup','Revisr Bot'),(2,'2020-07-11 14:07:16','The daily backup was successful.','backup','Revisr Bot');
+INSERT INTO `wppu_revisr` VALUES (1,'2020-07-11 14:07:16','Successfully backed up the database.','backup','Revisr Bot'),(2,'2020-07-11 14:07:16','The daily backup was successful.','backup','Revisr Bot'),(3,'2020-07-11 14:09:35','Successfully backed up the database.','backup','admin'),(4,'2020-07-11 14:09:35','Error pushing changes to the remote repository.','error','admin'),(5,'2020-07-11 14:14:17','Error pushing changes to the remote repository.','error','admin'),(6,'2020-07-11 14:18:51','Checked out branch: master.','branch','admin'),(7,'2020-07-11 14:19:13','Error pushing changes to the remote repository.','error','admin'),(8,'2020-07-11 14:58:39','Error pushing changes to the remote repository.','error','admin'),(9,'2020-07-11 14:59:15','Discarded all uncommitted changes.','discard','admin'),(10,'2020-07-11 15:00:45','Error pushing changes to the remote repository.','error','admin'),(11,'2020-07-11 15:01:29','Error pushing changes to the remote repository.','error','admin'),(12,'2020-07-11 15:02:03','Checked out branch: master.','branch','admin');
 /*!40000 ALTER TABLE `wppu_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
