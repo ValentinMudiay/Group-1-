@@ -23,7 +23,7 @@ CREATE TABLE `wpcp_term_relationships` (
 
 LOCK TABLES `wpcp_term_relationships` WRITE;
 /*!40000 ALTER TABLE `wpcp_term_relationships` DISABLE KEYS */;
-INSERT INTO `wpcp_term_relationships` VALUES (1,1,0);
+INSERT INTO `wpcp_term_relationships` VALUES (1,1,0),(29,2,0),(30,2,0);
 /*!40000 ALTER TABLE `wpcp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
