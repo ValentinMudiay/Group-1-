@@ -27,12 +27,12 @@ CREATE TABLE `wpcp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`),
   KEY `user_email` (`user_email`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wpcp_users` WRITE;
 /*!40000 ALTER TABLE `wpcp_users` DISABLE KEYS */;
-INSERT INTO `wpcp_users` VALUES (1,'layne','$P$BJZN5qQpv0LuDrAnim15haMXehLEhO/','layne','lstruz1@students.towson.edu','https://nationalparkg1.me','2020-07-12 13:27:46','',0,'layne'),(2,'valentin','$P$BGI4VcLg9lImeLfapxMwiniIPF90s41','valentin','vmudia1@students.towson.edu','https://nationalparkg1.me','2020-07-12 17:58:50','1594576730:$P$BlAR0qsCtBavGOUTtcZ9z2TPUJdaqK/',0,'valentin mudiay');
+INSERT INTO `wpcp_users` VALUES (1,'layne','$P$BJZN5qQpv0LuDrAnim15haMXehLEhO/','layne','lstruz1@students.towson.edu','https://nationalparkg1.me','2020-07-12 13:27:46','',0,'layne'),(2,'valentin','$P$BGI4VcLg9lImeLfapxMwiniIPF90s41','valentin','vmudia1@students.towson.edu','https://nationalparkg1.me','2020-07-12 17:58:50','1594576730:$P$BlAR0qsCtBavGOUTtcZ9z2TPUJdaqK/',0,'valentin mudiay'),(3,'austin','$P$Bf3N5/fW5BSBbkmkaYCHlL.wQp6y2S0','austin','aryan18@students.towson.edu','https://nationalparkg1.me','2020-07-13 13:17:51','1594646271:$P$BF2p.SIBOblaUbhxyLy./IjD85d0fJ/',0,'austin ryan'),(4,'abel','$P$B775xqU0xWexi7qx80zcKO1L1f7L36/','abel','Abelfekadu78@gmail.com','https://nationalparkg1.me','2020-07-13 13:18:41','1594646321:$P$BIYVjKsK9ZPf0AzbCeHAzM20xeQqMR/',0,'abel');
 /*!40000 ALTER TABLE `wpcp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
