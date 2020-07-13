@@ -27,7 +27,7 @@ CREATE TABLE `wpcp_term_taxonomy` (
 
 LOCK TABLES `wpcp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wpcp_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `wpcp_term_taxonomy` VALUES (1,1,'category','',0,1),(2,2,'nav_menu','',0,2);
+INSERT INTO `wpcp_term_taxonomy` VALUES (1,1,'category','',0,0),(2,2,'nav_menu','',0,8);
 /*!40000 ALTER TABLE `wpcp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

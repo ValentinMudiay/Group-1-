@@ -39,7 +39,7 @@ CREATE TABLE `wpcp_comments` (
 
 LOCK TABLES `wpcp_comments` WRITE;
 /*!40000 ALTER TABLE `wpcp_comments` DISABLE KEYS */;
-INSERT INTO `wpcp_comments` VALUES (1,1,'A WordPress Commenter','wapuu@wordpress.example','https://wordpress.org/','','2020-07-12 13:27:46','2020-07-12 13:27:46','Hi, this is a comment.\nTo get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.\nCommenter avatars come from <a href=\"https://gravatar.com\">Gravatar</a>.',0,'1','','',0,0);
+INSERT INTO `wpcp_comments` VALUES (1,1,'A WordPress Commenter','wapuu@wordpress.example','https://wordpress.org/','','2020-07-12 13:27:46','2020-07-12 13:27:46','Hi, this is a comment.\nTo get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.\nCommenter avatars come from <a href=\"https://gravatar.com\">Gravatar</a>.',0,'post-trashed','','',0,0);
 /*!40000 ALTER TABLE `wpcp_comments` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

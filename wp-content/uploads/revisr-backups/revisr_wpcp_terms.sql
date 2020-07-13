@@ -25,7 +25,7 @@ CREATE TABLE `wpcp_terms` (
 
 LOCK TABLES `wpcp_terms` WRITE;
 /*!40000 ALTER TABLE `wpcp_terms` DISABLE KEYS */;
-INSERT INTO `wpcp_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'practice','practice',0);
+INSERT INTO `wpcp_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'Homepage Menu','homepage-menu',0);
 /*!40000 ALTER TABLE `wpcp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
