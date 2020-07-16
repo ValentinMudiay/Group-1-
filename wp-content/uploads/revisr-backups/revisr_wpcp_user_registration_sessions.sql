@@ -9,22 +9,22 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-DROP TABLE IF EXISTS `wpcp_term_relationships`;
+DROP TABLE IF EXISTS `wpcp_user_registration_sessions`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `wpcp_term_relationships` (
-  `object_id` bigint(20) unsigned NOT NULL DEFAULT 0,
-  `term_taxonomy_id` bigint(20) unsigned NOT NULL DEFAULT 0,
-  `term_order` int(11) NOT NULL DEFAULT 0,
-  PRIMARY KEY (`object_id`,`term_taxonomy_id`),
-  KEY `term_taxonomy_id` (`term_taxonomy_id`)
+CREATE TABLE `wpcp_user_registration_sessions` (
+  `session_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `session_key` char(32) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `session_value` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `session_expiry` bigint(20) unsigned NOT NULL,
+  PRIMARY KEY (`session_key`),
+  UNIQUE KEY `session_id` (`session_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
-LOCK TABLES `wpcp_term_relationships` WRITE;
-/*!40000 ALTER TABLE `wpcp_term_relationships` DISABLE KEYS */;
-INSERT INTO `wpcp_term_relationships` VALUES (1,1,0),(76,2,0),(65,2,0),(69,2,0),(81,2,0),(85,2,0),(88,2,0),(91,2,0),(98,2,0),(223,3,0),(158,2,0),(156,2,0);
-/*!40000 ALTER TABLE `wpcp_term_relationships` ENABLE KEYS */;
+LOCK TABLES `wpcp_user_registration_sessions` WRITE;
+/*!40000 ALTER TABLE `wpcp_user_registration_sessions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wpcp_user_registration_sessions` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
