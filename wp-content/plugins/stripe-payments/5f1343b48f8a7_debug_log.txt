@@ -1,0 +1,12 @@
+[07/18/2020 6:47:16 PM] - Payment processing started.
+[07/18/2020 6:47:16 PM] - Got product ID: 127
+[07/18/2020 6:47:16 PM] - Firing asp_ng_process_ipn_product_item_override filter.
+[07/18/2020 6:47:16 PM] - Firing asp_ng_process_ipn_payment_data_item_override filter.
+[07/18/2020 6:47:17 PM] - The transaction ID of this notification is: ch_1H6L43DMP6aM0y4mu9uKLSIk
+[07/18/2020 6:47:17 PM] - Constructing checkout result and order data.
+[07/18/2020 6:47:17 PM] - Firing asp_ng_payment_completed filter.
+[07/18/2020 6:47:17 PM] - Firing asp_ng_payment_completed_update_pi filter.
+[07/18/2020 6:47:17 PM] - Firing asp_stripe_payment_completed action.
+[07/18/2020 6:47:17 PM] - Payment has been processed successfully.
+[07/18/2020 6:47:17 PM] - Redirecting to results page "https://nationalparkg1.me/stripe-checkout-result/"
+
