@@ -1,0 +1,92 @@
+.cg_main_menu_shortcode{
+    font-weight: 600;
+}
+
+.td_gallery_info{
+    text-align: center;
+    width: 400px;
+}
+
+.td_gallery_info > p{
+    margin: 5px 0;
+    padding-right: 10px;
+}
+
+.td_gallery_info > div{
+    margin: 0 0 5px 0;
+    padding-right: 10px;
+}
+
+.td_gallery_info:first-child > div{
+    margin-top: 5px;
+}
+
+.table_gallery_info{
+    width:937px;
+    border: thin solid black;
+    background-color:#ffffff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.table_gallery_info .cg_button_edit input{
+    text-align: center;
+    width: 80px;
+    background: linear-gradient(0deg, #ffffff 50%, #ffffff 50%);
+    outline: none;
+    box-shadow: unset;
+    border: thin solid black;
+    height: 35px;
+}
+
+.table_gallery_info .cg_button_copy input{
+    text-align: center;
+    width: 80px;
+    background: linear-gradient(0deg, #f1f1f1 50%, #f1f1f1 50%);
+    outline: none;
+    box-shadow: unset;
+    border: thin solid black;
+    height: 35px;
+}
+
+.table_gallery_info .cg_button_delete input{
+    text-align: center;
+    width: 80px;
+    background: linear-gradient(0deg, #fef050 50%, #fef050 50%);
+    outline: none;
+    box-shadow: unset;
+    border: thin solid black;
+    height: 35px;
+}
+
+input.cg_button_new_gallery{
+    text-align: center;
+    width: 110px;
+    background: linear-gradient(0deg, #f1f1f1 50%, #f1f1f1 50%);
+    outline: none;
+    box-shadow: unset;
+    border: thin solid black;
+    height: 35px;
+}
+
+.cg-copy-prev-7-text a:focus{
+    box-shadow: unset;
+    outline: unset;
+}
+
+#mainTable a:focus{
+    outline: none;
+    box-shadow: unset;
+}
+
+#mainTable #cgDocumentation{
+    width: 936.5px;
+}
+
+#wp-cgWpEditorJustPlaceHolderForTinymceInit-wrap{
+    display: none !important;
+}
+#cgWpEditorJustPlaceHolderForTinymceInit{
+    display: none !important;
+}

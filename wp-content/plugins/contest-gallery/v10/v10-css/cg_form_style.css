@@ -1,0 +1,298 @@
+#cg_user_registry_div input[type="text"], #cg_user_registry_div select, #cg_user_registry_div textarea{
+	width:100%;
+	max-width:100%;
+	padding:4px;
+	overflow: hidden;
+	-ms-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	box-sizing:content-box;
+}
+#cg_user_registry_div input[type="password"]{
+	padding:4px;
+	overflow: hidden;
+}
+
+
+#cg_upload_form_container .cg_input_error,#cg_user_registry_div .cg_input_error,#cg_user_login_div .cg_input_error{
+	background-color: #ff5555;
+	/* width: 100%; */
+	padding: 2px 7px;
+	/* max-width: 100%; */
+	box-sizing: content-box;
+	/* border: 1px solid #ddd; */
+	border-radius: 2px;
+	display: table;
+	margin-top: 4px;
+	color: white;
+}
+
+
+.cg_form_div label{
+	display: block;
+}
+
+.mainCGdivUploadForm .cg_form_div, #cg_user_registry_form .cg_form_div, #cg_user_login_div .cg_form_div{
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+.mainCGdivUploadForm .cg_form_div p, #cg_user_registry_form .cg_form_div p, #cg_user_login_div .cg_form_div p{
+	margin: 10px 0;
+}
+
+
+#cg_upload_form_container input[type="text"], #cg_upload_form_container textarea, #cg_upload_form_container select{
+	width:100%;
+	max-width:100%;
+	padding:4px;
+	overflow: hidden;
+	-ms-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+#cg_captcha_not_a_robot_registry_field label{
+	display: inline;
+	margin-left: 8px;
+}
+
+
+
+.cg_upload_form div{
+	display:block;
+	float:none;
+	clear:both;
+	width:96% !important;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	position: relative;
+}
+#cg_upload_form > div{
+	margin-bottom:10px;
+}
+#cg_upload_form {
+	clear:both;
+}
+
+#cg_upload_form #cg_captcha_not_a_robot_field label{
+	display: inline;
+	margin-left: 8px;
+}
+
+.cg_check_f_checkbox {
+	display:inline-block;
+	vertical-align:middle;
+	/*margin-top:6px;*/
+}
+
+.cg_check_f_div {
+	float:left;
+	display:inline !important;
+	margin-left:10px !important;
+}
+
+#cg_users_upload_submit, #cg_users_registry_check,#cg_user_login_check {
+	min-width:100px;
+	line-height:normal;
+	padding: 4px 12px;
+	background-color: #eeeeee;
+	cursor:pointer;
+}
+
+
+#cg_upload_form_container #cg_form_upload_submit_div #cg_users_upload_submit, #cg_user_registry_div #cg_users_registry_check,#cg_user_login_div #cg_user_login_check{
+	color: black;
+	border: 1px outset;
+}
+
+#cg_upload_form_container #cg_form_upload_submit_div #cg_users_upload_submit:focus, #cg_user_registry_div #cg_users_registry_check:focus {
+	outline: none;
+}
+
+#cg_slider_comment_submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #feb10b), color-stop(1, #feac09));
+	background:-moz-linear-gradient(top, #feb10b 5%, #feac09 100%);
+	background:-webkit-linear-gradient(top, #feb10b 5%, #feac09 100%);
+	background:-o-linear-gradient(top, #feb10b 5%, #feac09 100%);
+	background:-ms-linear-gradient(top, #feb10b 5%, #feac09 100%);
+	background:linear-gradient(to bottom, #feb10b 5%, #feac09 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb10b', endColorstr='#feac09',GradientType=0);
+	background-color:#feb10b;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #feb10b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+#cg_slider_comment_submit:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #feac09), color-stop(1, #feb10b));
+	background:-moz-linear-gradient(top, #feac09 5%, #feb10b 100%);
+	background:-webkit-linear-gradient(top, #feac09 5%, #feb10b 100%);
+	background:-o-linear-gradient(top, #feac09 5%, #feb10b 100%);
+	background:-ms-linear-gradient(top, #feac09 5%, #feb10b 100%);
+	background:linear-gradient(to bottom, #feac09 5%, #feb10b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#feac09', endColorstr='#feb10b',GradientType=0);
+	background-color:#feac09;
+}
+#cg_slider_comment_submit:active {
+	position:relative;
+	top:1px;
+}
+/*
+
+#cg_reg_confirm{
+	padding-top:75px;
+}
+#cg_success{
+	padding-top:75px;
+}
+#cg_activation{
+	padding-top:75px;
+}
+
+#cg_login{
+	padding-top:50px;
+}
+*/
+
+#cg_message{
+	padding-top:20px;
+	text-align:center;margin: 0 auto;
+	font-size:16px;
+	color:red;
+	font-weight:bold;
+}
+
+.cg_registry_message{
+	text-align:center;
+	margin: 0 auto;
+	font-size:16px;
+	color:red;
+	font-weight:bold;
+}
+
+/* Shortcode gallery Gallery Form*/
+
+.cg_form_div label {
+	margin-bottom: 5px;
+}
+
+#cg_upload_form_container .cg_form_div_image_upload_preview {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#cg_upload_form_container .cg_form_div_image_upload_preview{
+	width: 100%;
+	min-height: 155px;/* has to be done this way otherwise a short visible jump */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#cg_upload_form_container .cg_form_div_image_upload_preview .cg_form_div_image_upload_preview_div_container{
+	width: 200px !important;
+	height: 155px;/* has to be done this way otherwise a short visible jump */
+	display: inline-block;
+}
+
+#cg_upload_form_container .cg_form_div_image_upload_preview .cg_form_div_image_upload_preview_div_container .cg_form_div_image_upload_preview_img{
+	width: 200px !important;
+	height: 148px; /* has to be done this way otherwise a short visible jump */
+	display: inline-block;
+	background-size: cover !important;
+}
+
+#cg_upload_form_container .cg_form_div_image_upload_preview .cg_form_div_image_upload_preview_div_container .cg-lds-dual-ring-div-gallery-hide{
+	display: inline-block;
+	width: 200px !important;
+	height: 148px;/* has to be done this way otherwise a short visible jump */
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	pointer-events: none;
+	cursor: auto;
+}
+
+#cg_upload_form_container .cg_form_div_image_upload_preview .cg_form_div_image_upload_preview_div_container .cg-lds-dual-ring-div-gallery-hide .cg-lds-dual-ring-gallery-hide {
+	display: block;
+	height: 30px;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	margin: 54px 0 0 31%;
+	pointer-events: none;
+	cursor: auto;
+}
+
+#cg_upload_form_container .cg_form_div_image_upload_preview .cg_form_div_image_upload_preview_div_container .cg-lds-dual-ring-div-gallery-hide .cg-lds-dual-ring-gallery-hide:after {
+	content: " ";
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 0 0 0 20px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	border-color: #222 transparent #222 transparent;
+	animation: cg-lds-dual-ring 1.2s linear infinite;
+	box-sizing: border-box;
+	pointer-events: none;
+	cursor: auto;
+}
+
+.cg_hide{
+	display: none;
+}
+
+.cg_pointer_events_none{
+	pointer-events: none !important;
+}
+
+.cg_form_upload_submit_div .cg_form_div_image_upload_preview_loader_container {
+	margin: 0;
+	padding: 0;
+	width: auto !important;
+	/* background-color: #eeeeee; */
+	/* border: 1px outset; */
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* width: 100% !important; */
+	/* height: 100%; */
+	display: inline;
+}
+
+.cg_form_upload_submit_div .cg_form_div_image_upload_preview_loader {
+	width: 17px !important;
+	margin: 0 auto;
+}
+
+.cg_form_upload_submit_div .cg_form_div_image_upload_preview_loader:after {
+	content: " ";
+	display: block;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	border-color: #222 transparent #222 transparent;
+	animation: cg-lds-dual-ring 1.2s linear infinite;
+	box-sizing: border-box;
+	pointer-events: none;
+	cursor: auto;
+}

@@ -1,0 +1,571 @@
+jQuery(document).ready(function($){
+
+    // Scroll Function here
+    $.fn.cgGoTo = function() {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top - 40+'px'
+        }, 'fast');
+        return this; // for chaining...
+    };
+
+    // Scroll Function here --- ENDE
+
+		  $("#cg_user_registry_div").show();  // Document is ready
+		  
+		  // Objekt wird so festgelegt um später angezielt zu werden
+		  var $mail = $(".cg_user_registry_instant_mail_check");
+
+		$(".cg_main-mail").keyup(function() {
+			 // Man könnte hier auch direkt die objektschreibweise $(".cg_main-mail") anwenden
+			$mail.val( this.value );
+		});
+
+    /*I am not a robot captcha here*/
+
+    // Prüfen der Wordpress Session id
+    var check = $("#cg_check").val();
+    $("#cg_captcha_not_a_robot_registry_field").prepend("<input type='checkbox' id='cg_"+check+"_registry' >");
+
+	
+$(document).on('click', '#cg_users_registry_check', function(e){
+	//alert(1);
+	//e.preventDefault();
+	
+	var $form = $(this).closest('form');
+	var $field = $(this);
+
+			//alert(cg_main_mail);
+    $form.find('.cg_form_div').removeClass('cg_form_div_error');
+    $form.find('.cg_input_error').addClass('cg_hide').empty();
+
+	var check = 0;
+	
+
+    if($('.cg_recaptcha_not_valid_reg_form_error').length>=1){
+        var cg_language_pleaseConfirm = $("#cg_language_pleaseConfirm").val();
+        $('.cg_recaptcha_not_valid_reg_form_error').text(cg_language_pleaseConfirm).removeClass('cg_hide');
+        $("#cg_upload_form_e_prevent_default").val(1);
+        $('.cg_recaptcha_not_valid_reg_form_error').closest('.cg_form_div').addClass('cg_form_div_error');
+        check = 1;
+        e.preventDefault();
+    }
+
+
+//  var emailRegex = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;   
+  
+  // new regEx RFC 5322
+  var emailRegex = /^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$/;
+  
+  		  $( ".cg_check_f_checkbox" ).each(function( i ) {
+
+              var checkIfNeed = $( this ).parent().find(".cg_form_required").val();
+
+              if(checkIfNeed=='1'){
+
+                  //	alert(2);
+                  if(!$(this).prop('checked')){
+                      // alert('cf 1');
+                      //$( this ).parent().find('.cg_input_error p').remove();
+                      var cg_check_agreement = $("#cg_check_agreement").val();
+                      //alert(cg_check_agreement);
+                      $( this ).closest('.cg_form_div').find('.cg_input_error').removeClass('cg_hide').append(cg_check_agreement);
+                      check = 1;
+                      $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+                      e.preventDefault();
+                  }
+
+              }
+
+		  }); 
+		  
+
+		  $( ".cg-main-mail" ).each(function( i ) {
+		  
+			  var cg_main_mail = $(this).val();			  
+
+			 var realsize = $( this ).val().length;
+			 
+				 
+				if(realsize == 0){		  
+				   $( this ).parent().find('.cg_input_error').removeClass('cg_hide').text(''+$('#cg_language_PleaseFillOut').val()+'');
+				   check = 1;
+                    $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+				   e.preventDefault();			  
+				}	
+
+				if(realsize > 0){
+						if (!emailRegex.test(cg_main_mail)){
+
+						 // $( this ).parent().find('.cg_input_error p').remove();
+						  var cg_check_email_upload = $("#cg_check_email_upload").val();
+						  $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_check_email_upload);
+						  
+						  check = 1;
+                            $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+						  e.preventDefault();			  
+					  
+					  }
+			    }				 
+				 
+			 
+			  
+
+		  
+		  }); 
+		  
+// Validate Emailadress --- ENDE
+
+		// Validiere please confirm
+
+		// Check captcha I am not a robot
+		if($( "#cg_captcha_not_a_robot_registry_field  input[type='checkbox']" ).length >= 1 && $( "#cg_captcha_not_a_robot_registry_field  input[type='checkbox']" ).is(':checked')===false){
+			e.preventDefault();
+			var cg_language_pleaseConfirm = $("#cg_language_pleaseConfirm").val();
+			$("#cg_captcha_not_a_robot_registry_field").find('.cg_input_error').removeClass('cg_hide').text(cg_language_pleaseConfirm);
+
+		}
+
+    // Validiere please confirm --- ENDE
+
+
+
+		$( ".cg-main-user-name" ).each(function( i ) {
+			
+			var cg_main_user_name = $(this).val();
+			
+			var cg_Real_Size = $( this ).val().length;
+			var cg_Min_Char = $( this ).parent().find(".cg_Min_Char").val();
+			var cg_Max_Char = $( this ).parent().find(".cg_Max_Char").val();
+
+			var cg_min_characters_text = $("#cg_min_characters_text").val();
+			var cg_max_characters_text = $("#cg_max_characters_text").val();
+		 
+				 
+				 if(cg_Real_Size == 0){
+				  
+				   $( this ).parent().find('.cg_input_error').removeClass('cg_hide').text(''+$('#cg_language_PleaseFillOut').val()+'');
+					check = 1;
+                     $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+				   e.preventDefault();
+				  
+				}
+				 
+		 		else if (cg_Real_Size<cg_Min_Char){
+			 
+					// $( this ).parent().find('.cg_input_error p').remove();
+
+					 $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_min_characters_text+': '+cg_Min_Char);
+					 
+					check = 1;
+                     $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+					e.preventDefault();
+						
+				}						
+				
+				else if (cg_Real_Size>cg_Max_Char) {			 
+			 
+				//	$( this ).parent().find('.cg_input_error p').remove();	
+
+					$( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_max_characters_text+': '+cg_Max_Char);
+					 
+					check = 1;
+                     $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+					e.preventDefault();
+						
+				}
+				
+				else{
+					
+					
+				}
+				 
+			 
+		  
+		   });		   
+		   
+
+		  
+		 $( ".cg-user-comment-field" ).each(function( i ) {
+		 
+				var cg_Real_Size = $( this ).val().length;
+				var cg_Min_Char = $( this ).parent().find(".cg_Min_Char").val();
+				var cg_Max_Char = $( this ).parent().find(".cg_Max_Char").val();		 
+			 
+			 	var cg_min_characters_text = $("#cg_min_characters_text").val();
+				var cg_max_characters_text = $("#cg_max_characters_text").val();				
+				
+				 var checkIfNeed = $( this ).parent().find(".cg_form_required").val();
+
+				 if(checkIfNeed=='1'){
+
+					if(cg_Real_Size == 0){
+					   $( this ).parent().find('.cg_input_error').removeClass('cg_hide').text(''+$('#cg_language_PleaseFillOut').val()+'');
+					   check = 1;
+                        $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+					   e.preventDefault();
+					}
+
+					else if (cg_Real_Size<cg_Min_Char) {
+
+						// $( this ).parent().find('.cg_input_error p').remove();
+
+						 $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_min_characters_text+': '+cg_Min_Char);
+
+						check = 1;
+                        $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+						e.preventDefault();
+
+					}
+
+					else if (cg_Real_Size>cg_Max_Char) {
+
+					//	$( this ).parent().find('.cg_input_error p').remove();
+
+						$( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_max_characters_text+': '+cg_Max_Char);
+
+						check = 1;
+                        $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+						e.preventDefault();
+
+					}
+
+					else{
+
+					}
+
+				 }else{
+
+				 	if(cg_Min_Char && cg_Real_Size>=1){
+
+                        if (cg_Real_Size<cg_Min_Char) {
+
+                            // $( this ).parent().find('.cg_input_error p').remove();
+
+                            $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_min_characters_text+': '+cg_Min_Char);
+
+                            check = 1;
+                            $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+                            e.preventDefault();
+
+                        }
+
+					}
+
+                    if(cg_Min_Char && cg_Real_Size>=1){
+
+                         if (cg_Real_Size>cg_Max_Char) {
+
+                             //	$( this ).parent().find('.cg_input_error p').remove();
+
+                             $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_max_characters_text+': '+cg_Max_Char);
+
+                             check = 1;
+                             $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+                             e.preventDefault();
+
+                         }
+
+                     }
+
+				 }
+
+		   });
+
+
+		// Überprüfen ob leeres select field gewählt wurde
+
+		$( ".cg-user-select-field" ).each(function( i ) {
+			// $(this).attr( "width", "200px" );
+
+			var checkIfNeed = $( this ).parent().find(".cg_form_required").val();
+			var cg_language_youHaveNotSelected = $("#cg_language_youHaveNotSelected").val();
+
+			if (checkIfNeed == '1') {
+
+				$(this).val();
+
+				if ($(this).val()=='') {
+
+					$( this ).parent().find('.cg_input_error').removeClass('cg_hide').empty();
+					$( this ).parent().find('.cg_input_error').removeClass('cg_hide').text(''+cg_language_youHaveNotSelected+'');
+
+					$("#cg_upload_form_e_prevent_default").val(1);
+
+					$(this).closest('.cg_form_div').addClass('cg_form_div_error');
+
+					e.preventDefault();
+
+				}
+
+			}
+
+
+
+
+		});
+		   
+		   
+		$( ".cg-user-text-field" ).each(function( i ) {		 
+		 	
+			var cg_Real_Size = $( this ).val().length;
+			var cg_Min_Char = $( this ).parent().find(".cg_Min_Char").val();
+			var cg_Max_Char = $( this ).parent().find(".cg_Max_Char").val();		 
+		 
+			var cg_min_characters_text = $("#cg_min_characters_text").val();
+			var cg_max_characters_text = $("#cg_max_characters_text").val();
+
+			var checkIfNeed = $( this ).parent().find(".cg_form_required").val();
+			 
+			 if(checkIfNeed=='1'){				 
+				 
+				if(cg_Real_Size == 0){
+				   $( this ).parent().find('.cg_input_error').removeClass('cg_hide').text(''+$('#cg_language_PleaseFillOut').val()+'');
+				   check = 1;
+                    $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+				   e.preventDefault();			  
+				}
+
+				else if (cg_Real_Size<cg_Min_Char) {			 
+			 
+					// $( this ).parent().find('.cg_input_error p').remove();
+
+					 $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_min_characters_text+': '+cg_Min_Char);
+					 
+					check = 1;
+                    $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+					e.preventDefault();
+						
+				}					
+				
+				else if (cg_Real_Size>cg_Max_Char) {		 
+			 
+					//$( this ).parent().find('.cg_input_error p').remove();	
+
+					$( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_max_characters_text+': '+cg_Max_Char);
+					 
+					check = 1;
+                    $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+					e.preventDefault();
+						
+				}
+				
+				else{
+										
+				}
+
+			 }else{
+
+                 if(cg_Min_Char && cg_Real_Size>=1){
+
+                     if (cg_Real_Size<cg_Min_Char) {
+
+                         // $( this ).parent().find('.cg_input_error p').remove();
+
+                         $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_min_characters_text+': '+cg_Min_Char);
+
+                         check = 1;
+                         $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+                         e.preventDefault();
+
+                     }
+
+                 }
+
+                 if(cg_Min_Char && cg_Real_Size>=1){
+
+                     if (cg_Real_Size>cg_Max_Char) {
+
+                         //$( this ).parent().find('.cg_input_error p').remove();
+
+                         $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_max_characters_text+': '+cg_Max_Char);
+
+                         check = 1;
+                         $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+                         e.preventDefault();
+
+                     }
+
+                 }
+
+             }
+		 
+		   });
+
+
+		   
+
+		   
+// Passwort Felder überprüfen	
+		
+		var pw_count = 0;
+		
+		var cg_password_1='';
+		var cg_password_2='';
+		
+		$( "[class*=cg-password]" ).each(function( i ) {
+		//	alert(4);
+		pw_count++;
+			
+		 //Überprüfen ob passwort oder password confirm typ ist		 
+		 var cg_password_type = $(this).attr("class");
+		 
+		 if(pw_count==1){
+			  cg_password_1 = $( this ).val();
+		 }
+		 
+		 if(pw_count==2){
+			  cg_password_2 = $( this ).val();
+		 }	
+			
+		var cg_Real_Size = $( this ).val().length;
+		var cg_Min_Char = $( this ).parent().find(".cg_Min_Char").val();
+		var cg_Max_Char = $( this ).parent().find(".cg_Max_Char").val();	
+		 
+		 var cg_Real_Size = $( this ).val().length;		
+
+		var cg_min_characters_text = $("#cg_min_characters_text").val();
+		var cg_max_characters_text = $("#cg_max_characters_text").val();	
+		 
+				
+				if(cg_Real_Size==0){					
+					
+				  $( this ).parent().find('.cg_input_error').removeClass('cg_hide').text(''+$('#cg_language_PleaseFillOut').val()+'');
+				   check = 1;
+                    $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+				   e.preventDefault();					
+					
+				}
+
+
+		 		else if (cg_Real_Size<cg_Min_Char) {
+		 
+				// $( this ).parent().find('.cg_input_error p').remove();			
+				 //alert(1);
+				 $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_min_characters_text+': '+cg_Min_Char);
+
+				// alert("check: "+check);
+				check = 1;
+                    $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+				 e.preventDefault();
+				
+				}
+						
+				else if (cg_Real_Size>cg_Max_Char) {
+				
+				//alert(2);
+				
+				
+				// $( this ).parent().find('.cg_input_error p').remove();			
+				 
+				 $( this ).parent().find('.cg_input_error').removeClass('cg_hide').append(cg_max_characters_text+': '+cg_Max_Char);
+				 
+				// alert("check: "+check);
+				check = 1;
+                    $(this).closest('.cg_form_div').addClass('cg_form_div_error');
+				 e.preventDefault();
+
+				}
+				else{
+					
+				}				
+				
+				//alert(pw_count);
+				if(pw_count==2){
+					//alert("pw1 "+cg_password_1);
+					//alert("pw2 "+cg_password_2);
+					if(cg_password_1!=cg_password_2){check = 1; e.preventDefault();
+						alert($("#cg_language_PasswordsDoNotMatch").val());
+					}
+				}			
+			
+			 });
+
+		if(check==1){
+            $(".cg_form_div_error").cgGoTo();
+		}
+		   
+
+		// AJAX Action   
+		if(check==0){
+		//	e.preventDefault();
+			
+			$("#cg_registry_message").empty();
+
+			var cg_site_url = $("#cg_site_url").val();	
+
+			var cg_check = $("#cg_check").val();
+			
+			var cg_main_mail = $( ".cg-main-mail" ).val();
+			var cg_main_user_name = $( ".cg-main-user-name" ).val();
+			var cg_gallery_id_registry = $( "#cg_gallery_id_registry" ).val();
+
+		//	var cg_plugins_url = $( "#cg_plugins_url" ).val();
+			
+
+			 
+		//	 var loadingSource = cg_plugins_url+"/admin/users/css/loading.gif";	 
+			 
+			// alert(loadingSource);
+			  
+			// $("#cg_registry_message").append("<img id='#cg_registry_message_img' src='"+loadingSource+"' width='22px' height='22px' style='display:inline;'>");
+			 
+			 //$("#cg_registry_message_img").load(function(){$(this).toggle();});
+
+			 //$("#ipm_input_name").val('');
+			//$("#ipm_input_check").prop('checked',false);
+        //    console.log(cg_main_user_name)
+
+			var inputValue = $field.val();
+
+            contGallSubmitLoaderShow($,$field);
+
+            //e.preventDefault();
+            jQuery.ajax({
+                //url : cg_site_url+"/wp-admin/admin-ajax.php",
+                url : post_cg_registry_wordpress_ajax_script_function_name.cg_registry_ajax_url,
+                type : 'post',
+                data : {
+                    action : 'post_cg_registry',
+                    action1 : cg_main_mail,
+                    action2 : cg_main_user_name,
+                    action3 : cg_check,
+                    gid : cg_gallery_id_registry
+                },
+                async: false,	// Ganz wichtig! Führt die Operation live aus. Nicht asynchron!
+            }).done(function(response) {
+
+                var script = jQuery(response).text();
+                eval(script);
+
+            }).fail(function(xhr, status, error) {
+
+            	var test = 1;
+
+            }).always(function() {
+
+                var test = 1;
+
+            });
+
+
+            contGallSubmitLoaderShow($,$field);
+
+            if(document.readyState === "complete"){
+				var cg_check_mail_name_value = $("#cg_check_mail_name_value").val();// Beim Ajax request wird eine 1 gesetzt wenn Name oder E-Mail schon existieren
+				//alert(cg_check_mail_name_value);
+
+				if(cg_check_mail_name_value==1){
+                    contGallSubmitLoaderHide($,$field,inputValue);
+					e.preventDefault();
+					$("#cg_check_mail_name_value").val(0);
+				}
+			}
+			
+
+		}
+
+
+});
+
+
+});

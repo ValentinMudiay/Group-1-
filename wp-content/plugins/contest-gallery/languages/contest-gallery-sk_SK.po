@@ -1,0 +1,412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contest Gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-13 08:17+0200\n"
+"PO-Revision-Date: 2020-04-13 08:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Loco-Source-Locale: sk_SK\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: check-language.php:34
+msgid "Sort by"
+msgstr "Zoradiť"
+
+#: check-language.php:36
+msgid "Comments"
+msgstr "Komentáre"
+
+#: check-language.php:38
+msgid "Vote first"
+msgstr "Najprv hlasujte"
+
+#: check-language.php:40
+msgid "Slider view"
+msgstr "Zobraziť slider"
+
+#: check-language.php:42
+msgid "Height view"
+msgstr "Priznať výšku"
+
+#: check-language.php:44
+msgid "Thumb view"
+msgstr "Zobraziť náhľady"
+
+#: check-language.php:46
+msgid "Row view"
+msgstr "Zobraziť v riadku"
+
+#: check-language.php:48
+msgid "Random"
+msgstr "Náhodne"
+
+#: check-language.php:50
+msgid "Date descend"
+msgstr "Od najnovšej"
+
+#: check-language.php:52
+msgid "Date ascend"
+msgstr "Od najstaršej"
+
+#: check-language.php:54
+msgid "Comments descend"
+msgstr "Najviac komentárov"
+
+#: check-language.php:56
+msgid "Comments ascend"
+msgstr "Najmenej komentárov"
+
+#: check-language.php:58
+msgid "Rating descend"
+msgstr "Najlepšie hodnotenie"
+
+#: check-language.php:60
+msgid "Rating ascend"
+msgstr "Najhoršie hodnotenie"
+
+#: check-language.php:62
+msgid "Rating quantity descend"
+msgstr "Počet hodnotení zostupne"
+
+#: check-language.php:64
+msgid "Rating quantity ascend"
+msgstr "Množstvo hodnotenia stúpa"
+
+#: check-language.php:66
+msgid "Rating average descend"
+msgstr "Priemerný zostup hodnotenia"
+
+#: check-language.php:68
+msgid "Rating average ascend"
+msgstr "Priemer hodnotenia stúpať"
+
+#: check-language.php:70
+msgid "Full size"
+msgstr "Plná veľkosť"
+
+#: check-language.php:72
+msgid "Picture comments"
+msgstr "Obrázkové komentáre"
+
+#: check-language.php:74
+msgid "Your comment"
+msgstr "Váš komentár"
+
+#: check-language.php:76
+msgid "Name"
+msgstr "Meno"
+
+#: check-language.php:78
+msgid "Comment"
+msgstr "Komentár"
+
+#: check-language.php:80
+msgid "I am not a robot"
+msgstr "Nie som robot"
+
+#: check-language.php:82
+msgid "You can not vote in own gallery"
+msgstr "Vo vlastnej galérii nemôžete hlasovať"
+
+#: check-language.php:84
+msgid "You can not comment in own gallery"
+msgstr "Nemôžete komentovať vo vlastnej galérii"
+
+#: check-language.php:86
+msgid "Send"
+msgstr "Odoslať"
+
+#: check-language.php:89
+msgid "Image was deleted"
+msgstr "Obrázok bol odstránený"
+
+#: check-language.php:94
+msgid "Delete image?"
+msgstr "Odstrániť obrázok?"
+
+#: check-language.php:96
+msgid "Image successfully deleted"
+msgstr "Obrázok bol úspešne odstránený"
+
+#: check-language.php:99
+msgid "The name field must contain two characters or more"
+msgstr "Meno musí obsahovať aspoň 2 znaky"
+
+#: check-language.php:101
+msgid "The comment field must contain three characters or more"
+msgstr "Komentár musí obsahovať aspoň 3 znaky"
+
+#: check-language.php:103
+msgid "Plz check the checkbox to prove that you are not a robot"
+msgstr "Zaškrtnite políčko a dokážte, že nie ste robot"
+
+#: check-language.php:105
+msgid "Thank you for your comment"
+msgstr "Ďakujeme za váš komentár"
+
+#: check-language.php:107
+msgid "You have already voted for this picture"
+msgstr "Za túto fotku ste už hlasovali"
+
+#: check-language.php:109
+msgid "You have already used all your votes"
+msgstr "Už ste rozdali všetky svoje hlasy"
+
+#: check-language.php:111
+msgid "It is not allowed to vote for your own picture"
+msgstr "Nie je dovolené hlasovať za vlastný obrázok"
+
+#: check-language.php:113
+msgid "Only registered users are allowed to vote"
+msgstr "Hlasovať môžu iba zaregistrovaní používatelia"
+
+#: check-language.php:115
+msgid "Back to gallery"
+msgstr "Späť na galériu"
+
+#: check-language.php:117
+msgid "This file type is not allowed"
+msgstr "Nepodporovaný typ súboru"
+
+#: check-language.php:119
+msgid "The selected file is too large, max allowed size"
+msgstr "Zvolený súbor je príliš veľký, max. povolená veľkosť"
+
+#: check-language.php:121
+msgid "The resolution of this image is"
+msgstr "Rozlíšenie tejto fotky"
+
+#: check-language.php:123
+msgid "Maximum number of images for one upload is"
+msgstr "Maximálny počet fotiek na jedno nahrávanie"
+
+#: check-language.php:124
+msgid "Minimum number of images for one upload is"
+msgstr "Minimálny počet fotiek na jedno nahrávanie"
+
+#: check-language.php:126
+msgid "Maximum allowed resolution for JPG is"
+msgstr "Maximálne povolené rozlíšenie JPG súborov"
+
+#: check-language.php:128
+msgid "Maximum allowed width for JPG is"
+msgstr "Maximálna povolená šírka JPG súborov"
+
+#: check-language.php:130
+msgid "Maximum allowed height for JPG is"
+msgstr "Maximálna povolená výška JPG súborov"
+
+#: check-language.php:132
+msgid "Maximum allowed resolution for PNG is"
+msgstr "Maximálne povolené rozlíšenie PNG súborov"
+
+#: check-language.php:134
+msgid "Maximum allowed width for PNG is"
+msgstr "Maximálna povolená šírka PNG súborov"
+
+#: check-language.php:135
+msgid "Maximum allowed height for PNG is"
+msgstr "Maximálna povolená výška PNG súborov"
+
+#: check-language.php:137
+msgid "Maximum allowed resolution for GIF is"
+msgstr "Maximálne povolené rozlíšenie GIF súborov"
+
+#: check-language.php:139
+msgid "Maximum allowed width for GIF is"
+msgstr "Maximálna povolená šírka GIF súborov"
+
+#: check-language.php:141
+msgid "Maximum allowed height for GIF is"
+msgstr "Maximálna povolená výška GIF súborov"
+
+#: check-language.php:143
+msgid "You have to check this agreement"
+msgstr "Musíte súhlasiť s touto dohodou"
+
+#: check-language.php:145
+msgid "This email is not valid"
+msgstr "Neplatná e-mailová adresa"
+
+#: check-language.php:147
+msgid "Min amount of characters"
+msgstr "Min. počet znakov"
+
+#: check-language.php:149
+msgid "Max amount of characters"
+msgstr "Max. počet znakov"
+
+#: check-language.php:151
+msgid "Select your image"
+msgstr "Vyberte fotku"
+
+#: check-language.php:153
+msgid "The photo contest has not started yet"
+msgstr "Fotografická súťaž ešte nezačala"
+
+#: check-language.php:155
+msgid "The photo contest is over"
+msgstr "Fotosúťaž sa skončila"
+
+#: check-language.php:157
+msgid "Hold left mouse to see user info"
+msgstr "Stlačte ľavé tlačidlo myši, aby sa zobrazili info o používateľovi"
+
+#: check-language.php:159
+msgid "Maximum amount of uploads per user is"
+msgstr "Maximálny počet odovzdaní na jedného používateľa je"
+
+#: check-language.php:164
+msgid "This email address is already registered"
+msgstr "Táto e-mailová adresa už je registrovaná"
+
+#: check-language.php:166
+msgid "This username is already taken"
+msgstr "Toto používateľské meno sa už používa"
+
+#: check-language.php:168
+msgid "Username or email"
+msgstr "Používateľské meno alebo e-mail"
+
+#: check-language.php:170
+msgid "Username or email required"
+msgstr "Používateľské meno alebo e-mail sú povinné"
+
+#: check-language.php:172
+msgid "Username or email does not exist"
+msgstr "Používateľské meno alebo e-mail neexistuje"
+
+#: check-language.php:174
+msgid "This nickname is already taken"
+msgstr "Táto prezývka už bola prijatá"
+
+#: check-language.php:176
+msgid "Email"
+msgstr "E-mail"
+
+#: check-language.php:178
+msgid "Email required"
+msgstr "Požaduje sa e-mail"
+
+#: check-language.php:180
+msgid "Email does not exist"
+msgstr "Mail neexistuje"
+
+#: check-language.php:182
+msgid "Password"
+msgstr "Heslo"
+
+#: check-language.php:184
+msgid "Password required"
+msgstr "Heslo je povinné"
+
+#: check-language.php:186
+msgid "Password is wrong"
+msgstr "Nesprávne heslo"
+
+#: check-language.php:188
+msgid "You are already logged in"
+msgstr "Už ste prihlásený/á"
+
+#: check-language.php:190
+msgid "Please fill out"
+msgstr "Vyplňte"
+
+#: check-language.php:192
+msgid "Passwords do not match"
+msgstr "Heslá sa nezhodujú"
+
+#: check-language.php:194
+msgid "Upload"
+msgstr "Nahrať"
+
+#: check-language.php:196
+msgid "Register"
+msgstr "Registrovať"
+
+#: check-language.php:198
+msgid "Login"
+msgstr "Prihlásiť"
+
+#: check-language.php:199
+msgid "Please select"
+msgstr "Prosím vyber"
+
+#: check-language.php:201
+msgid "You have not selected"
+msgstr "Nevybrali ste si"
+
+#: check-language.php:203
+msgid "Please confirm"
+msgstr "Potvrďte prosím"
+
+#: check-language.php:205
+msgid "Image is not activated"
+msgstr "Obrázok nie je aktivovaný"
+
+#: check-language.php:207
+msgid "Your email could not be confirmed."
+msgstr "Váš e-mail sa nepodarilo potvrdiť."
+
+#: check-language.php:209
+msgid "Please enter a valid URL"
+msgstr "Prosím vložte platnú URL"
+
+#: check-language.php:211
+msgid "Other"
+msgstr "Ostatné"
+
+#: check-language.php:214
+msgid "Yes"
+msgstr "Áno"
+
+#: check-language.php:215
+msgid "No"
+msgstr "žiadny"
+
+#: functions/general/sql/contest-gallery-create-tables.php:411
+msgid "Contest Gallery User"
+msgstr "Používateľ Contest Gallery"
+
+#: index.php:618
+msgid "Account"
+msgstr "Účet"
+
+#: index.php:619
+msgid "Logout?"
+msgstr "Odhlásiť sa?"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Contest Gallery"
+msgstr "Contest Gallery"
+
+#. Description of the plugin/theme
+msgid ""
+"Professional photo contest gallery plugin for WordPress. Create image upload "
+"frontend forms. Create user registration frontend forms. Create responsive "
+"galleries and allow to vote images."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.contest-gallery.com/"
+msgstr "http://www.contest-gallery.com/"
+
+#~ msgid "Create a professional photo contest"
+#~ msgstr "Vytvárajte profesionálne fotosúťaže"

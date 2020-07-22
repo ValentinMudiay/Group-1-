@@ -1,0 +1,51 @@
+
+			.wpvc_countdown_wrapper .dash .digit,.wpvc_countdown_tag,.countdown_end_timer{font-size:14px !important;color:#000000 !important;}
+			.wpvc_countdown_wrapper{background-color:#ffffff !important;}
+			.wpvc_vote_menu_links li a{font-size:14px !important;color:#FFFFFF !important;}
+			.wpvc_vote_menu_links li a:hover{color:#ffffff !important;}
+			.wpvc_vote_contest_top_bar{background:#305891 !important;}
+			.wpvc_vote_contest_top_bar ul.wpvc_vote_menu_links li.wpvc_vote_navmenu_link a {background: !important}
+			.wpvc_vote_contest_top_bar ul.wpvc_vote_menu_links li.wpvc_vote_navmenu_link a:hover, .wpvc_vote_contest_top_bar ul.wpvc_vote_menu_links li.wpvc_vote_navmenu_link.active a {background:#d83c30 !important}
+			.menudiv .togglehide::after,.votecontestant-menu-down::before{color:#FFFFFF !important}
+			.wpvc_vote_list .wpvc_shwpvc_contestant h2 a{font-size:16px !important;color:#FFFFFF !important;}
+			.wpvc_vote_grid .wpvc_shwpvc_contestant h2 a{font-size:16px !important;color:#f26e2a !important;}
+			h2.wpvc_vote_single-title, .wpvc_contestant_custom_fields h2 ,.wpvc_leader_title a{color: !important;}
+			div.pp_kalypso .pp_details {background: !important;}
+			.wpvc_single_page_content .vote_content p, .wpvc_contestant_other_det {color: !important;}
+			.wpvc_voting_left a, .wpvc_voting_right a {background: !important;}
+			.wpvc_voting_left a:hover, .wpvc_voting_right a:hover {background: !important;}
+			.pp_mult_desc .wpvc_contestant_custom_fields h2 {color: !important;background: !important;}
+			.pp_mult_desc .wpvc_contestant_other_det {color: !important;}
+			.wpvc_vote_share_parent .wpvc_vote_share_url {color: !important;}
+			.wpvc_vote_single_container .wpvc_vote_content_container {background: !important;}
+			.wpvc_vote_list .wpvc_shwpvc_contestant h2 a:hover{color:#F26E2A !important;}
+			.wpvc_vote_grid .wpvc_shwpvc_contestant h2 a:hover{color:#30598f !important;}
+			.wpvc_vote_list .wpvc_shwpvc_contestant h2{background-color:#30598f !important;}
+			.wpvc_vote_list .wpvc_shwpvc_text_desc{font-size:16px !important;color:#b18f6a !important;background-color:#FFFFFF!important;}
+			.wpvc_vote_list .wpvc_shwpvc_read_more a,.wpvc_vote_grid .wpvc_shwpvc_read_more a{font-size:14px !important;color:#F26E2A !important;background-color: !important;padding-top:px !important;padding-bottom:px !important;padding-left:5px !important;padding-right:px !important;}
+			.wpvc_vote_list .wpvc_shwpvc_read_more a:hover,.wpvc_vote_grid .wpvc_shwpvc_read_more a:hover{color:#000000 !important;background-color: !important;}
+			.wpvc_vote_list .wpvc_shwpvc_vote_cnt{border:1px solid !important;border-color:#DDDDDD !important;}
+			.wpvc_pp_vote_count,.pp_social .wpvc_shwpvc_vote_square,.wpvc_shwpvc_vote_square{color:#FFFFFF !important;font-size:16px !important;background-color:#3276b1 !important;}
+			.wpvc_voting_right,.wpvc_voting_left,.wpvc_voting_button_now,.wpvc_pp_vote_btn_single,.pp_social .wpvc_shwpvc_vote_button,.wpvc_votebutton{color:#FFFFFF !important;font-size:16px !important;background-color:#305891 !important;}
+			.wpvc_shwpvc_vote_button a:hover{color:#FFFFFF !important;background-color:#f26e2a !important;}
+			.wpvc_shwpvc_vote_button.wpvc_voting_grey_button, a.wpvc_voting_grey_button{background-color: !important;}
+			 a.wpvc_voting_green_button{background:  !important;}
+			.wpvc_shwpvc_share_icons{font-size:25px !important;color:#F26E2A !important;}
+			.wpvc_shwpvc_share_icons:hover{color:#30598F !important;}
+			.voteconestant-grid{color:#FFFFFF !important;}
+			.voteconestant-list{color:#FFFFFF !important;}
+			.wpvc_vote_menu_links li .wpvc_list_active{color:#F26E2A !important;}
+			.wpvc_vote_menu_links li .wpvc_grid_active{color:#F26E2A !important;}
+			.wpvc_votes_social_container{background-color:#30598f !important;}
+			.wpvc_votes-pagination a{font-size:14px !important;color:#f26e2a !important;}
+			.wpvc_votes-pagination .current{background-color: !important;color:#d83c30 !important;}
+			.wpvc_votes-pagination a:hover{background-color: !important;color: !important;}
+			.wpvc_tab_buttons a.active {background-color: !important;color: !important;}
+			.wpvc_tab_buttons a:hover {background-color: !important;color: !important;}
+			.wpvc_tab_buttons a {color: !important;}
+			.login-panel .wpvc_tabs_content, .forgot-panel {background-color: !important;}
+			.login-panel .create_account, .login-panel input[type=submit], .register-panel input[type=submit], .forgot-panel input[type=submit], .login-panel .login_facebook {background-color: !important;color: !important;}
+			.login-panel .create_account:hover, .login-panel input[type=submit]:hover, .register-panel input[type=submit]:hover, .forgot-panel input[type=submit]:hover {background-color: !important;color: !important;}
+			.login-panel .m_title, .register-panel .m_title, .forgot-panel .m_title, .zn_remember, .login-panel .links a, .register-panel .links a, .forgot-panel .links a, .register-panel_inner label {color:#000000 !important;}
+			span.wpvc_all_font_size,.votecontestant-eye-open:before,.voteconestant-star:before{color:#FFFFFF !important;}.grid li div.votingclass{background-color:#30598f !important;}
+					

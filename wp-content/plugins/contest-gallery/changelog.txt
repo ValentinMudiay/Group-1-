@@ -1,0 +1,1416 @@
+Contest Gallery
+
+= V10.9.8.8.1 =
+* FIXED: Data was not saved for frontend in some cases. If some data is not visible in frontend it can be repaired in "Edit options" >>> "Status and repair".
+
+= V10.9.8.8.0 =
+* NEW: Create user account and login user immediately after registration.
+* FIXED: Changing thumb sizes in WordPress >>> Settings >>> Media gallery does not affect frontend conditions for already added images.
+
+= V10.9.8.7.0 =
+* NEW: Backend completely AJAX now. Faster areas loading.
+* NEW: Improved frontend load for galleries with many images.
+* FIXED: Date picker did not appear in fullscreen in frontend.
+* FIXED: Uploading in frontend did not show new image if a category was checked.
+* FIXED: Copying categories did not work in right way.
+
+= V10.9.8.6.2 =
+* FIXED: Comments were not displayed in no voting gallery if five star rating and show only user votes were activated.
+* FIXED: If multiple galleries with same id (normal, user, no voting) on same page, show messages did not appear in full window.
+
+= V10.9.8.6.1 =
+* FIXED: Date field was not working in "In gallery form".
+* FIXED: Datepicker was visible at the bottom of the page when cg_users_upload shortcode was used.
+
+= V10.9.8.6.0 =
+* NEW: Date time field for upload forms.
+* FIXED: Unnecessary jumping to top when navigating in slider view.
+
+= V10.9.8.5.4 =
+* NEW: Active images count when categories exist in backend.
+* NEW: Precreated categories when new gallery is created.
+* FIXED: Category widget might be hidden in some cases when saving options.
+* FIXED: Show as HTML title attribute in gallery did not work for category field.
+
+= V10.9.8.5.3 =
+* FIXED: Categories could not be changed after update 10.9.8.5.0.
+
+= V10.9.8.5.2 =
+* NEW: 50 images can be displayed now in backend if max input vars is 2000 or higher.
+* FIXED: Uploaded images with cg_gallery_user or cg_gallery_no_voting shortcodes and in gallery form did not appear right after upload. Only after page reload.
+
+= V10.9.8.5.1 =
+* NEW: Failed mailing will be logged now in "Corrections and Improvements" area.
+
+= V10.9.8.5.0 =
+* NEW: "Show categories unchecked on page load" option.
+* FIXED: Create data CSV showed exported data displaced if URL or Facebook fields were active.
+* FIXED: "Show as HTML title attribute in gallery" fields option did not work in some cases.
+
+= V10.9.8.4.3 =
+* NEW: Improved slider performance. Works smoothly with many images now. Will be opened fast with many images now.
+* FIXED: Draggable elements in backend were not draggable on mobile devices.
+
+= V10.9.8.4.2 =
+* FIXED: Registry and login might not worked for some WordPress installations.
+
+= V10.9.8.4.1 =
+* NEW: Option to repair gallery if not activated images are visible in frontend in "Corrections and Improvements" area.
+* FIXED: "In gallery upload form" can handle higher upload size now. Not necessary data was send before.
+
+= V10.9.8.4.0 =
+* NEW: Allow sort options. Select which sort options should be available in frontend.
+
+= V10.9.8.3.0 =
+* NEW: Limit uploads by IP or cookie.
+* FIXED: Search was not working in frontend in some cases.
+
+= V10.9.8.2.7 =
+* FIXED: Unnecessary do no manipulate upload form message if field was not required an min amount of characters was set.
+* FIXED: To much height for single image view container if switch was done from slider view to any other view back.
+
+= V10.9.8.2.6 =
+* NEW: Export votes function available in "Show votes" for every image.
+* FIXED: Min and max amount of characters were no validated if field was not set as required.
+
+= V10.9.8.2.5 =
+* NEW: Facebook share button title and description upload form fields.
+
+= V10.9.8.2.3 =
+* NEW: Edit Facebook pages title and description.
+* FIXED: Registry form did not checked if nickname or email already exists before submitting.
+* FIXED: Appearence of five stars details in slider view in full window at top cutted. Now appears at top of rating.
+* FIXED: In gallery upload form not as wide anymore on wide window sizes.
+
+= V10.9.8.2.0 =
+* NEW: Preselect sort order.
+* FIXED: No background color opacity 0 for upload frame, full window or full screen in some cases.
+
+= V10.9.8.0.2 =
+* NEW: Higher scaling in slider view for big monitors.
+* NEW: User IP of uploaded image will be also exported now in "Create data CSV".
+* FIXED: Not required margin right in mobile devices removed.
+* FIXED: One star rating does not disappear anymore in row view with more then two images per row and low view width.
+
+= V10.9.8.0.1 =
+* FIXED: High width images in high size views were still cropped a bit in single view.
+* FIXED: Vote self-added pictures now difference between IP and registered users block.
+* FIXED: Activating check cookie processing when page reload was not done before.
+
+= V10.9.8.0.0 =
+* NEW: Enter full window button and handling.
+* FIXED: High width images were cropped in single view.
+* FIXED: Very large 5 stars progress bars in Edge or Internet Explorer.
+* FIXED: Not required files removed.
+
+= V10.9.7.9.1 =
+* FIXED: Finished AJAX requests were not processed in some cases.
+* FIXED: Show meta image title by hovering as default, if "Show as HTML title attribute in gallery" in "Edit upload form" is not configured.
+* FIXED: Gallery functionality might suddenly stop in some cases.
+
+= V10.9.7.9.0 =
+* NEW: "Show upload form again after upload" option for cg_users_upload shortcode.
+* NEW: Refresh upload form button in "In gallery upload form" after upload.
+* NEW: Minimize "In gallery upload form" when uploading.
+* FIXED: Facebook button overlay when used in gallery view.
+
+= V10.9.7.8.1 =
+* FIXED: Check agreement which was required as default for users upload form was not handled as required in frontend after last update.
+
+= V10.9.7.8.0 =
+* NEW: Improved icons alignment frontend.
+* NEW: Improved width scaling top control elements frontend in normal view for small devices.
+* NEW: Check agreement is now not only required anymore and agreement status can be exported.
+* FIXED: Hovering five star rating in single view image of slider view did not show rating details.
+* FIXED: Saving fields right after adding saved them always as required in "Edit upload form" area.
+* FIXED: Gallery view information might disappear when switching row look and back.
+
+= V10.9.7.7.0 =
+* NEW: Settings button now available in full window mode in frontend. Settings button opens area which contains search, sort, random button and categories.
+* NEW: Full window mode now use full space.
+* NEW: Improved categories buttons look style.
+
+= V10.9.7.5.4 =
+* FIXED: Initialize full window did not work in all cases for user galleries.
+
+= V10.9.7.5.3 =
+* NEW: Improved size of images in single view for mobile devices.
+* FIXED: Steps were not shown in right way if to many steps.
+* FIXED: "View images as full window slider" id not work if already small view size.
+* FIXED: If to many categories then looks broken in backend images area.
+
+= V10.9.7.5.1 =
+* FIXED: In gallery upload form disappeared vor not logged in users after last update.
+
+= V10.9.7.5.0 =
+* NEW: Cleaner top controls CSS in frontend.
+* NEW: Select between white and black color sites styles for gallery top controls in "Multiple pics options".
+* FIXED: Not required space bottom of slider view in full window view.
+
+= V10.9.7.4.1 =
+* NEW: Adding meta data by clicking icons in images backend area now adds data to existing data and does not replace existing data anymore.
+* FIXED: Adding meta data by clicking icons in images backend area might be not able to save.
+
+= V10.9.7.4.0 =
+* NEW: "Voting of self-added picture is not allowed" option.
+* NEW: Uploading process duration is visible in percent when uploading over "In gallery form".
+
+= V10.9.7.3.3 =
+* NEW: Improved behaviour categories and categories widget.
+* NEW: Improved behaviour hover and show info gallery view.
+* NEW: Improved behaviour deleting image frontend user gallery for cg_gallery_user shortcode.
+* FIXED: Check agreement CSS in in gallery forms in frontend.
+* FIXED: Uploading jfif file types caused expected fail but starting upload with this file type was possible.
+* FIXED: Saving editor content with some gallery shortcodes caused "Not able to save message" but content was saved.
+
+= V10.9.7.3.2 =
+* FIXED: Repairing broken data was broken in frontend init gallery processing.
+
+= V10.9.7.3.1 =
+* NEW: "Thank you for your comment" can now be edited in translation area.
+* FIXED: Five stars rating hover might be not fully visible in full window size.
+* FIXED: Five stars rating was not centered or positioned right when hovered.
+
+= V10.9.7.3.0 =
+* NEW: HTML fields can be edited visually now in upload and registration form area backend.
+* NEW: Check agreement field can be edited as real HTML field and also as visually HTML field.
+* FIXED: Sending out confirmation mail for registration multiple times by reloading the page directly after confirmation.
+
+= V10.9.7.2.5 =
+* NEW: Improved behaviour for themes structured like "Twenty Twenty".
+* NEW: Improved switch pagination behaviour from last image of a page to first image of a page.
+* NEW: Same background color in gallery upload form and full window gallery as background on the page.
+
+= V10.9.7.2.4 =
+* FIXED: Long ids broke shortcodes look in backend.
+* FIXED: Comments in frontend might be not displayed for certain width.
+* FIXED: Check agreement field could not be ordered first time when added in "Upload form" area backend.
+
+= V10.9.7.2.3 =
+* FIXED: Comments slide out overlay has no background-color in frontend when starting commenting.
+* FIXED: Position elements right and center did line break in frontend.
+
+= V10.9.7.2.2 =
+* NEW: Improved gallery frontend rendering performance.
+* FIXED: Gallery failed to be rendered in frontend in Firefox in some cases.
+* FIXED: Slider view has not same width as gallery width.
+* FIXED: Switching gallery orders in backend did not scroll to the right position.
+
+= V10.9.7.2.1 =
+* NEW: "Hide Facebook share button" option.
+
+= V10.9.7.2.0 =
+* NEW: cg_gallery_no_voting shortcode.
+* FIXED: After setting a comment in frontend scroll to top of comment area was not done if was required.
+
+= V10.9.7.1.5 =
+* FIXED: User gallery did not use full window width when switching in full window.
+* FIXED: Switching in full window when thumb view might not use full width.
+* FIXED: Width of other galleries might be wrong if uploading image in full window and other galleries are on the page.
+* FIXED: Clicking of escape button might cause unexpected behaviour.
+
+= V10.9.7.1.4 =
+* FIXED: Frontend upload might cause error for certain server configuration if "Allow only registered users to upload" is activated.
+
+= V10.9.7.1.3 =
+* NEW: Not possible to comment in own gallery anymore when cg_gallery_user shortcode ist used.
+* NEW: "You can not vote in own gallery" and "You can not comment in own gallery" translations can be edited now in "Edit options".
+* FIXED: Clicking escape button when in gallery upload form message was shown caused no scroll on page.
+
+= V10.9.7.1.2 =
+* FIXED: Resizing in height view might shown broken gallery if single view image was also opened.
+* FIXED: CSS improved for resizing row view if more then 1 image in a row should be displayed.
+
+= V10.9.7.1.1 =
+* FIXED: Showing undefined variables in backend in some areas.
+* FIXED: PHP Version 7.2 count bug will be considered.
+* FIXED: Resizing opened in gallery upload form was not working.
+
+= V10.9.7.1.0 =
+* NEW: Activate in gallery upload form only for user gallery.
+* NEW: Copying gallery versions created before version 7 works without configuration now.
+* NEW: If [cg_gallery] and [cg_gallery_user] shortcodes with same gallery id are inserted on same page then voting and uploading image data will be synchronized.
+* FIXED: New uploaded multiple images in frontend in user gallery replaced new uploaded images before. Site reload was needed to work properly. Work properly without site reload now.
+
+= V10.9.7.2.5 =
+* NEW: Improved delete votes icon.
+* FIXED: Endless loader is shown all the time if no images were added.
+* FIXED: Showing details five star in single view of slider did not work on mouseenter.
+
+= V10.9.7.0.1 =
+* NEW: Old galleries created between versions 7-9 can be copied with all data now for using new version 10 engine.
+
+= V10.9.7.0.0 =
+* NEW: Improved 5 stars rating. Percentage each star and average value rounded to one decimal will be shown in frontend. Logic equals logic on amazon. To use new 5 stars rating on already created galleries you have to correct it in "Corrections and improvements" area.
+* NEW: 5 stars sorting by average rating.
+* NEW: Improved feedback in backend adding additional votes by administrator.
+* NEW: Improved live actualisation voting data if votes were changed by administrator and user has not reloaded the window.
+* NEW: Improved JSON data loading logic. Galleries with many images load faster.
+* FIXED: Sorting 5 stars rating in frontend might not always work right way.
+* FIXED: Reset votes in backend might not always work right way.
+
+= V10.9.5.3.3 =
+* NEW: Improved visual feedback when sorting elements in backend.
+* NEW: Database status can be seen and corrected in "Corrections and improvements" area. Scroll to bottom in "Edit options" to see the button for "Corrections and improvements" area.
+
+= V10.9.5.3.0 =
+* NEW: Improved logic loading images in frontend. Better for large galleries with many images.
+* FIXED: Image titles and descriptions might disappear in frontend when saving in backend. If it is happened already it can be corrected in "Edit options" scroll to the bottom and then "Corrections and improvements".
+
+= V10.9.5.2.4 =
+* FIXED: Random button loader always visible in frontend.
+
+= V10.9.5.2.3 =
+* FIXED: Image titles and descriptions might disappear in frontend when saving in backend. If it is happened already it can be corrected in "Edit options" scroll to the bottom and then "Corrections and improvements".
+* FIXED: When adding images in backend it might load without ending. Then page reload was needed to see added images.
+* FIXED: Sort by quantity descend in backend might not work properly if also a value was searched.
+* FIXED: Rotated images not fully scaled and might look blurred.
+
+= V10.9.5.2.0 =
+* NEW: Sorting rating quantity with and without manipulation in backend.
+* NEW: Search by user name and user email in backend.
+* NEW: Corrections and improvements area in backend options. You can repair your gallery if you see images in frontend which you deleted, issue happened in 10.9.5.0.0.
+
+= V10.9.5.1.1 =
+* FIXED: Deleting images did not remove the images from frontend since update 10.9.5.0.0.
+
+= V10.9.5.1.0 =
+* NEW: Improved backend design.
+
+= V10.9.5.0.1 =
+* FIXED: Save empty image fields in backend was not possible since last update.
+* FIXED: Add description, title and excerpt buttons have not worked since last update.
+
+= V10.9.5.0.0 =
+* NEW: Sort images in backend.
+* NEW: Search for images in backend.
+* NEW: Improved gallery load in backend.
+
+= V10.9.3.7.8 =
+* FIXED: Upload form was not visible anymore since last update.
+
+= V10.9.3.7.7 =
+* NEW: Delete image option in user gallery.
+* FIXED: In gallery upload form icon is visible for user gallery if activated and user has no uploaded images.
+
+= V10.9.3.7.4 =
+* FIXED: Zip images did not contain all images if SSL status of site was changed during a contest.
+
+= V10.9.3.7.3 =
+* FIXED: HTML tags in form fields were not displayed in right way in "In gallery upload form".
+* FIXED: Undefined variable error in contest-gallery/v10/v10-frontend/user_upload/users-upload.php in line 68 for certain server configuration.
+
+= V10.9.3.7.1 =
+* FIXED: Amount uploads per user has to be configured +1 to validate right amount.
+
+= V10.9.3.7 =
+* NEW: User IP will be tracked when uploading an image.
+
+= V10.9.3.5.8 =
+* FIXED: Processing of JavaScript array loops which were extended by libraries caused unexpected behaviour.
+
+= V10.9.3.5.7 =
+* FIXED: Undefined variable: onlyLoggedInUserImages in ...v10-get-data.php on line 19 message.
+
+= V10.9.3.5.6 =
+* FIXED:  Delete votes when 5 star voting is activated did not work.
+
+= V10.9.3.5.5 =
+* NEW:  Cookie id generation logic improved. Cookie id more unique now.
+* FIXED:  Clicking random button if image is opened breaks gallery.
+* FIXED:  When copying gallery information data of first image is missing.
+
+= V10.9.3.5.3 =
+* FIXED:  "Activate photo contest start time" feature was not working in right way.
+
+= V10.9.3.5.1 =
+* FIXED:  If multiple forms with Google reCAPTCHA are rendered unnecessary validation errors might appear.
+
+= V10.9.3.5 =
+* NEW:  Photo contest start options.
+* FIXED:  Facebook button was not shown when cg_gallery_user shortcode was used.
+
+= V10.9.3.3 =
+* NEW:  Improved handling backend options area.
+* FIXED:  Some option values could not be saved. Eventually creating new gallery is necessary.
+
+= V10.9.3.1.1 =
+* FIXED:  Missing CSS for figure tag in gallery frontend might not show images.
+
+= V10.9.3.1 =
+* NEW:  "Maximum amount of uploads per user is" translation added to files and translation options.
+* NEW:  In gallery upload form button is shown in gallery even if no images are activated.
+
+= V10.9.3 =
+* NEW:  Display only uploaded images of logged in user shortcode.
+* NEW:  "Uploads per user" option for registered and logged in users.
+* FIXED:  Adding additional line breaks after saving in backend options textarea form fields again and again resolved.
+* FIXED:  Preview image was not loaded in upload form if image did not fulfill the requirements.
+* FIXED:  Partially wrong error messages translations were shown in frontend upload form.
+* FIXED:  Poedit could not actualize translation files from code.
+
+= V10.9.0.1.1 =
+* FIXED:  Show image in full size didn't work in backend.
+
+= V10.9.0.1 =
+* NEW:  Form buttons loader for all forms when form is submitted.
+* NEW:  Improved look image information in backend in images overview.
+* FIXED:  Wrong translations in gallery upload form errors.
+
+= V10.9.0 =
+* NEW:  Translation options in backend for every gallery.
+* NEW:  Copy gallery shortcodes by click.
+* FIXED:  Broken line break in backend for 1 star option in show image area if more then 10 votes are done.
+* FIXED:  Broken handling when photo contest is over in upload forms.
+
+= V10.8.1 =
+* NEW:  Total and activated images information in gallery select menu in backend.
+
+= V10.8.0 =
+* NEW:  Image preview when uploading image in frontend.
+* FIXED:  Quotes can't be inserted in many option fields.
+* FIXED:  Voting is not shown if only Facebook Like button is activated.
+
+= V10.7.9.0.3 =
+* FIXED:  HTML tags in emails were not correctly formatted.
+* FIXED:  Copying gallery or updating form removed information of first picture in frontend.
+
+= V10.7.9.0.1 =
+* FIXED:  Facebook Like button appeared multiple times for one image when clicking through single view.
+
+= V10.7.9.0 =
+* NEW: Allow only registered users to see the gallery.
+* FIXED: Random sort button function in slider view didn't work.
+* FIXED: Switching views when multiple gallery shortcodes on one page are inserted might caused gallery break.
+
+= V10.7.8.9.3=
+* FIXED: Searching and sorting in slider view was broken.
+
+= V10.7.8.9.1 =
+* FIXED: Facebook Like button button does not appear for opened image when it will be opened directly by URL on site load.
+
+= V10.7.8.9 =
+* FIXED: "Photo contest is over" is over if not configured because of wrong check.
+
+= V10.7.8.8 =
+* FIXED: It was possible to vote after photo contest end time.
+* FIXED: "Single pic options" view selection might not work right.
+
+= V10.7.8.5 =
+* FIXED: Deactivating all frontend header control options leads to broken gallery.
+* FIXED: If only "Allow search for images" is activated then this option doesn't appear in frontend.
+
+= V10.7.8.3 =
+* FIXED: Frontend views borders configuration removed because of broken functionality.
+* FIXED: Opening or closing full window slider view stops loading gallery.
+* FIXED: Some JPG images couldn't be added to gallery.
+* FIXED: Check icon not visible when adding images and images are checked.
+* FIXED: Images couldn't be opened directly from URL.
+
+
+= V10.7.8.1 =
+* FIXED: Informs a user of activated image when his image gets deleted.
+
+= V10.7.8.0 =
+* NEW: "Show as HTML title attribute in gallery" checkbox option in "Upload form" area.
+
+= V10.7.7.0 =
+* NEW: Select user role group for registered users over Contest Gallery in "Registration options" area.
+* FIXED: Deselect "Show info in gallery view" in "Edit upload form" area.
+
+= V10.7.6.3 =
+* NEW: Improved options loading in backend.
+* NEW: Clearer single pic options collocation.
+* FIXED: Coming back from slider full window to gallery view might break pagination.
+
+= V10.7.6.0 =
+* NEW: Select copy variant when copying a gallery.
+
+= V10.7.5.1 =
+* FIXED: Options table couldn't be created in some cases.
+
+= V10.7.5.0 =
+* NEW: Hiding registration form and show text instead when logged in options.
+* FIXED: Export image data had wrong float values.
+* FIXED: Export image data had wrong order in some cases.
+* FIXED: No line breaks were set if comment had line breaks.
+* FIXED: Jumping single view height when clicking through images with same height.
+
+= V10.7.4.3 =
+* NEW: Not required space to top after login, upload confirm and registration removed.
+* FIXED: cgRegistrationSearchReset button readjusted.
+* FIXED: Activate images right after upload out of "In gallery form" breaks gallery look.
+* FIXED: Line height in slider view smaller then font size.
+
+= V10.7.4.1 =
+* FIXED: "Show votes" area broken in backend.
+
+= V10.7.4.0 =
+* FIXED: "Check Cookie voting" behaviour.
+* FIXED: Gallery title was not shown if pagination is on from second step on.
+* FIXED: Additional space when slider view is first in order.
+
+= V10.7.3.7 =
+* NEW: It is not allow to show Email field in single image view or gallery view anymore.
+* FIXED: Show info in gallery did not work.
+* FIXED: Voting via Facebook Like button out of gallery did not work.
+
+= V10.7.3.5 =
+* FIXED: Delete votes in frontend when "Original source link only" or "Only gallery view" were activated.
+* FIXED: Jumping of gallery rating info for 270 or 90 degree rotated images.
+* FIXED: Double loading image if clicking next step gallery from single view image.
+* FIXED: Switch views button disappeared if clicking from slider to full window and "Gallery slide out" is activated.
+* FIXED: Previous step not clickable if last image shown in last step when "Gallery slide out" is activated.
+
+= V10.7.3.0 =
+* NEW: Improved slider view with horizontal scroll.
+* NEW: Open slider view full window when clicking image in gallery.
+* NEW: Search for images by EXIF data.
+* NEW: Improved gallery loader and appearance.
+* NEW: Improved directly single image opening via URL.
+* NEW: Gallery images and image information appears event if user has JavaScript deactivated, for SEO.
+* FIXED: Buggy behaviour by opening image as gallery slide in full window.
+* FIXED: No image information shown in single image view if "Allow comments" is deactivated.
+
+= V10.7.0.1 =
+* FIXED: Body unscrollable after vote done out of gallery directly.
+* FIXED: Buggy image slide out in some browsers.
+
+= V10.7.0 =
+* NEW: Show exif data option. Can be found in "Edit options" >>> "Single pic options".
+* NEW: Comment entry fields are hidden in frontend till plus button is clicked.
+* NEW: Improved slide out behaviour for all browsers.
+* FIXED: Scrollbar removed when "Forward directly to original source" or "Make images unclickable" is activated.
+
+= V10.6.5.3 =
+* FIXED: Word break added to CSS of image comments and image text information.
+* FIXED: Image info was not loaded on page load of first image if "Slider view" is main view.
+* FIXED: Body click events were off when "In gallery upload form" disappeared or user messages were closed.
+
+= V10.6.5.1 =
+* NEW: Shown users at one time raised from 10 to 30 as default in "Users management".
+
+= V10.6.5 =
+* NEW: Improved "Users management" overview.
+* NEW: Improved "Users management overview "CSV data" export.
+* FIXED: Extended space after leaving "Full window view".
+* FIXED: Not fluent behaviour going last row of a gallery view.
+* FIXED: "Delete votes" did not work if certain options combination was activated.
+* FIXED: "Allow only registered users to upload" did not work in "In gallery upload form".
+* FIXED: Buggy behaviour if "Slider view" is first in order and "Start gallery full window view by clicking an image" is activated.
+
+= V10.6.3 =
+* NEW: Clicking to prev next step image directly out of a first last image of a step.
+* FIXED: Random sort (Each page load) did not work.
+* FIXED: Clicking last image of a gallery did not work.
+* FIXED: Adding line breaks in comment field type did not cause line break in frontend.
+* FIXED: Background color of image comment inputs now white for all themes.
+
+= V10.6.0 =
+* NEW: Slider view.
+* NEW: Cached frontend gallery, faster loading.
+* FIXED: Update script did not work for specific databases.
+* FIXED: Slide out image had wrong source and took longer to load.
+
+= V10.5.0 =
+* NEW: Allow voting via cookie recognition.
+* NEW: Improved voting options overview.
+* NEW: Reset administrator votes option.
+* NEW: Improved reset votes buttons.
+* NEW: Improved show image votes overview.
+* FIXED: Reset votes does not work.
+
+= V10.4.7.1 =
+* FIXED: Autocorrection of data at frontend loading if data not complete because of server interruption during saving of data.
+
+= V10.4.5 =
+* NEW: Votes in time interval per user options.
+* NEW: Improved CSRF and Self XSS protection in backend forms.
+
+= V10.4.1.1 =
+* FIXED: Adding new columns when updating didn't work in some cases.
+
+= V10.4.1 =
+* NEW: Rotate images 90 and 270 degree.
+* FIXED: Broken options. Options can't be saved in some cases.
+
+= V10.4.0 =
+* NEW: Horizontal slide effect when switching images in gallery slider.
+* NEW: Select horizontal or vertical slide effect option.
+* FIXED: "Only gallery view" >>> "Make images unclickable". Images were still clickable.
+* FIXED: In gallery form did not appear if gallery was full window sized.
+
+= V10.3.5.5 =
+* NEW: Drag icons for draggable areas in backend.
+* FIXED: Images on sites with plain page id url couldn't be opened.
+
+= V10.3.5.3 =
+* FIXED: Resizing gallery frontend broken.
+* FIXED: Not all images are displayed in gallery.
+
+= V10.3.5.1 =
+* FIXED: CSS file not included when copying or creating new gallery in backend.
+
+= V10.3.5 =
+* NEW: Google reCAPTCHA as form field available.
+* NEW: Improved CSS alerts form messages.
+* NEW: Instant fields validation upload form.
+* NEW: Improved CSS steps links in backend image area.
+
+= V10.3.1 =
+* NEW: Copying galleries with many images by partial redirect.
+* NEW: Clicking browser back button navigates through gallery images.
+* FIXED: Clicking gallery image opens image but does not jump in the image on mobile.
+* FIXED: Not working image link when activating images in backend and send image activation email option is activated.
+
+= V10.3.0.3 =
+* FIXED: Files names lowercase now how it supposed to be.
+
+= V10.3.0.1 =
+* FIXED: Required files were not loaded.
+
+= V10.3.0 =
+* NEW: Show detailed vote overview for every image and ability to remove votes in backend.
+* NEW: Improved slide out single image view.
+
+= V10.2.5.1 =
+* FIXED: Gallery stopped loading for special kind of sorting.
+
+= V10.2.5 =
+* NEW: Uploaded images added instantly to gallery in frontend, without site reload, if "In gallery upload form" and "Automatically activate users images after frontend upload" is activated and used.
+* NEW: Improved slide out performance single image view.
+* FIXED: Missing information in admin mail.
+* FIXED: Backslash appears when quotes are added in comments area.
+* FIXED: Gallery stopped loading if not existing image tried to be found when site load.
+* FIXED: Image activation mail was not send if url parameter was missing in content mail.
+* FIXED: Multiple images upload and "Automatically activate users images after frontend upload".
+
+= V10.2.3 =
+* NEW: Delete votes. Frontend users can remove their votes and give them to another picture. For galleries created after V10.
+* FIXED: "Show Nickname who uploaded image" showed always nickname of logged in user.
+* FIXED: Gallery view information, rating and comments position couldn't be changed.
+* FIXED: No unnecessary semicolons in filename when exporting data CSV.
+* FIXED: JavaScript error message if only 1 Category is selected.
+* FIXED: Reset votes did not work properly.
+
+= V10.20 =
+* NEW: Light version limit options, instead of upload and registrations amount.
+* NEW: Show Nickname who uploaded image, if registered user uploaded image.
+* NEW: Login via mail only, not mail and username anymore.
+* FIXED: Upload form not running when Autoptimize plugin is activated.
+* FIXED: Max image upload size always 2MB in gallery upload form.
+* FIXED: End activate photo contest saving options logic.
+* FIXED: VARCHAR (65535) changed to TEXT when creating tables. Suitable for more servers.
+
+= V10.1.4 =
+* FIXED: Small images were scaled to full gallery width.
+* FIXED: Automatically activate users images after frontend upload for galleries created after V10.
+
+= V10.1.3 =
+* FIXED: Thumb view width adjustment for galleries created after V10.
+* FIXED: Hide until vote rating handling for galleries created after V10.
+* FIXED: Show only user votes rating handling for galleries created after V10.
+* FIXED: "Enable link to original image source" for galleries created after V10.
+
+= V10.1.2 =
+* NEW: tinymce editors in "Edit options" instead of textareas for galleries created after V10.
+* FIXED: Photo contest is over message was not shown in gallery upload form.
+* FIXED: Fields could not be hidden in gallery upload form.
+* FIXED: Email field was not shown in gallery upload form.
+
+= V10.1.0 =
+* NEW: In gallery upload form for galleries created after V10.
+* FIXED: Gallery CSS not complete loaded on slow pages.
+
+= V10.0.1 =
+* FIXED: Focusing blocks in backend when a shortcode of gallery is inserted created before version 10.
+* FIXED: Jumping slideout of images in last row in full window mode.
+* FIXED: Abrupt appearence of gallery closing full window mode.
+
+= V10.0.0 =
+* NEW: Faster frontend engine
+* NEW: Modern slide out view
+* NEW: Full browser window gallery view
+* NEW: Search option in frontend (by image names, field entries or categories)
+* NEW: Instant search results
+* NEW: Instant pagination switching
+* NEW: Instant sorting and category switching
+* NEW: Instant random sort with random sort button
+* NEW: Multiple gallery shortcodes on one page
+* NEW: End contest date in hours and minutes
+
+= V9.3.9 =
+* NEW: Sorting by 5 star rating integrated.
+
+= V9.3.8 =
+* NEW: Stable for WordPress 5
+* NEW: Create data CSV in image area also exports WordPress user id, name and email if given.
+
+= V9.3.7 =
+* FIXED: Upload form disappears when updating from very old versions to actual version.
+
+= V9.3.6.5 =
+* FIXED: Possible PHP soft errors in frontend removed.
+
+= V9.3.6 =
+* FIXED: First image of gallery appears full size for a short moment in some cases.
+* FIXED: Select and Select categories field did not appear in CSV export.
+
+= V9.3.5 =
+* NEW: Lean updating process.
+
+= V9.3.3 =
+* FIXED: Photo contest is over function.
+
+= V9.3.2 =
+* FIXED: Frontend categories widget appears only if sorting is activated.
+* FIXED: Images disappear when fast clicking on on categories checkbox in frontend.
+* FIXED: Rating if only "Votes per user" is activated.
+
+= V9.3.0 =
+* NEW: Hide form fields in upload and registry form.
+
+= V9.2.1 =
+* NEW: Improved checkboxes look for categories in frontend.
+* FIXED: Categories written with spaces in their names were not recognized in frontend.
+
+= V9.2.0 =
+* NEW: Copy gallery with images.
+* NEW: New style of category buttons and step links in frontend.
+* FIXED: Adding new fields to registry form didn't work.
+
+= V9.0.5 =
+* NEW: When categories selected showing only category images when clicking through "Single pic view".
+* FIXED: Gallery was not resized after changing categories on mobile devices.
+
+= V9.0 =
+* NEW: Add categories field in upload form.
+* NEW: Switch categories in frontend.
+* NEW: Edit which categories can be switched.
+* FIXED: Sorting if manipulation is activated.
+
+= V8.3.5.1 =
+* FIXED: Wording improved backend.
+
+= V8.3.5 =
+* NEW: Improved drag and drop handling in backend.
+* FIXED: URL field in upload form can't be deleted.
+
+= V8.3.5 =
+* NEW: Improved drag and drop handling in backend.
+* FIXED: URL field in upload form can't be deleted.
+
+= V8.3.1 =
+* NEW: Direct CSV download instead of coded download link.
+
+= V8.3.0 =
+* NEW: 5 star rating manipulation.
+
+= V8.2.1 =
+* FIXED: Images keep low resolution if resizing from low resolution to high resolution.
+* FIXED: 1 star rating manipulation bugs.
+
+= V8.2.0.3 =
+* FIXED: Photo contest is over immediately when photo contest end time is activated.
+
+= V8.2.0.1 =
+* FIXED: Arrangement image items in backend when voting is deactivated.
+
+= V8.2.0 =
+* NEW: Allow manipulation for 1 star rating.
+* FIXED: Status info disappeared in slider when hiding and then showing carrousel again.
+
+= V8.1.9.1 =
+* FIXED: Undefined variables on certain PHP version.
+* FIXED: Same id of "I am not a robot" labels for upload and registry form.
+
+= V8.1.9 =
+* NEW: Photo contest end status in main menu.
+* FIXED: To low resolution of vertical images in slider carrousel.
+* FIXED: CSS of rating and comment information in slider carrousel is inline now.
+* FIXED: CSS of comment box when resizing in single image view.
+* FIXED: Unnecessary scale and cut option removed for single image view.
+
+= V8.1.7 =
+* NEW: End photo contest immediately option.
+* FIXED: Upload form was not shown in some cases.
+* FIXED: Links direct to the pictures did not work if lazy load was activated.
+* FIXED: Missing voting messages if "Single pic view" is activated.
+
+= V8.1.6 =
+* NEW: Description is added to images which were uploaded in frontend with info that image was added by Contest Gallery.
+* FIXED: Missing e-mail in e-mail field of CSV data in some cases.
+
+= V8.1.5 =
+* NEW: URL field can be added to upload form and gallery.
+* FIXED: Single image view CSS and responsiveness.
+
+= V8.1.4 =
+* FIXED: Registered user e-mail shows as unconfirmed when uploading image in frontend without beeing logged in but entering a registered e-mail.
+
+= V8.1.3 =
+* NEW: Jump to last image of slider in the gallery when closing slider.
+* FIXED: Buggy behavior on mobile devices. iOS and Android.
+
+= V8.1.1 =
+* NEW: Improved slider handling for IOS devices.
+
+= V8.1 =
+* NEW: Slider performance improved for desktop and mobile devices.
+* FIXED: Fade in button disappears when showing much information in slider for a picture on a desktop device.
+
+= V8.0 =
+* NEW: Position and handling of user information in slider improved.
+* NEW: Switching direct to next page out of slider when pagination is on.
+* NEW: Mobile handling of slider improved especially relating user information.
+* NEW: CSS of user comments out of gallery and in slider improved.
+
+= V7.4.0 =
+* FIXED: "Cannot redeclare" error when uploading in frontend can happen in some cases.
+
+= V7.3.9 =
+* FIXED: Because of conflict with another plugins slider image did not appear when clicking slider preview image.
+
+= V7.3.8 =
+* FIXED: "Only gallery view" in "Single pic options" didn't work properly
+
+= V7.3.7 =
+* FIXED: Select fields could not be added in "Define single pic info"
+
+= V7.3.6 =
+* FIXED: Comment and text field are not displayed in "Define single pic info"
+
+= V7.3.5 =
+* FIXED: Rotated images overlapping user information in slider.
+
+= V7.3.4 =
+* FIXED: Image upload failed in frontend in some cases.
+
+= V7.3.3 =
+* FIXED: Image upload failed in frontend.
+* FIXED: Input fields of deleted galleries were shown in users management.
+
+= V7.3.2 =
+* NEW: Improved information position in slider.
+
+= V7.3.1 =
+* FIXED: Closing slider button did not work in some cases.
+
+= V7.3.0 =
+* NEW: E-Mail confirmation e-mail when uploading an image and e-mail field is activated.
+* NEW: Sending to multiple recipients in CC and BCC possible.
+* NEW: Pics per site navigation also bottom now.
+* FIXED: Show original source when clicking on image in backend.
+
+= V7.1.7 =
+* NEW: Scrolling to image position in preview in slider when clicking images in slider or opening slider.
+
+= V7.1.6 =
+* FIXED: Code processing for older PHP versions.
+* FIXED: Slider arrows doesn't react if slider preview is on, in some cases.
+
+= V7.1.5 =
+* NEW: Rating and comments status of an image appears in slider preview now.
+
+= V7.1.3 =
+* FIXED: Image rotation for 90 and 270 degree was shown in wrong way in some cases. Now fixed for all galleries created since version 7.
+
+= V7.1.2 =
+* NEW: "I am not a robot" captcha also integrated in registration form.
+* FIXED: Comment field did not appear in registration form.
+* FIXED: Rotating images overlay in backend in some cases.
+
+= V7.1.0 =
+* NEW: Image rotation option.
+* FIXED: Thumb view appeared as height view in version 7.
+
+= V7.0.1 =
+* FIXED: Image disappeared in "Single pic view" in new version 7.
+
+= V7.0.0 =
+* NEW: Improved and faster image adding for new or copied galleries.
+
+= V6.1.9 =
+* FIXED: Code parsing errors for older PHP version.
+
+= V6.1.8 =
+* NEW: Fullscreen feature for Safari browser removed because missing API.
+
+= V6.1.7 =
+* FIXED: Unnecessary empty space in gallery when Contest Gallery is filtered by other plugins.
+* FIXED: Division by zero message when row view is activated.
+
+= V6.1.6 =
+* NEW: Detecting exit fullscreen slider on mobile devices and closing slider completly instead of showing not mobile version of slider.
+
+= V6.1.5 =
+* NEW: Fullscreen mode for slider on mobile or optional on desktop devices.
+* NEW: Styled alert messages appears now when all votes used or already voted an image.
+* FIXED: Options "View to original source" and "View preview in slider" couldn't be saved.
+
+= V6.1.1 =
+* NEW: Select users registered about a certain gallery in users management area.
+* FIXED: Empty CSV user data if no further registration fields were added.
+
+= V6.1.0 =
+* NEW: Simple "I am not a robot" captcha for "Edit upload form" area.
+* NEW: TinyMCE is used for HTML fields in "Edit upload form" area.
+* NEW: Changing view order is more simple.
+* FIXED: Responsiveness bugs in mobile view.
+
+= V6.0.8 =
+* NEW: Configuration option of link to original source and preview in slider.
+* FIXED: Wrong original source after clicking left arrow in slider.
+* FIXED: Wrong voting message, when creating a new gallery and using "One vote per picture option".
+
+= V6.0.7 =
+* FIXED: Images couldn't be added if exif library not exists.
+
+= V6.0.6 =
+* FIXED: Closing slider when 5 star rating is activated.
+* FIXED: Responsive behavior single pic view.
+* FIXED: Commenting single pic view.
+
+= V6.0.5 =
+* NEW: Select field can be added to upload form.
+
+= V6.0.3 =
+* FIXED: Multiple images upload in frontend broken.
+
+= V6.0.2 =
+* NEW: Exif image orientation will be checked. Wrong rotated images will be corrected during the upload.
+
+= V6.0.1 =
+* FIXED: Commenting area in frontend couldn't be opened on mobile devices.
+
+= V6.0 =
+* NEW: Improved slider
+* FIXED: CSV file data order wrong in some cases.
+* FIXED: Single pic info management in admin broken.
+* FIXED: Wrong conversion of non english caracters in file names.
+
+= V5.36.55 =
+* NEW: Scrolling to top error message in all forms.
+
+= V5.36.54 =
+* NEW: Buttons for instantly inserting of original WordPress title, description or excerpt in the image fields.
+* FIXED: Zip all pictures failed in some cases.
+* FIXED: Division by null error appeared in backend if original source was deleted.
+
+= V5.36.53 =
+* FIXED: Facebook buttons without sharing image appears when upload PNG and GIF images in frontend.
+
+= V5.36.52 =
+* FIXED: Registered users also get an e-mail when "Inform users when activate pictures" is activated.
+
+= V5.36.51 =
+* FIXED: Gallery view switch thumbs disappeared in some cases.
+
+= V5.36.50 =
+* NEW: Galleries can be copied now. Settings will be copied.
+* NEW: Translations for upload, regsitry and login form submit buttons added.
+
+= V5.36.14 =
+* FIXED: "Forward directly to full size image in a new tab" option did not work.
+
+= V5.36.13 =
+* NEW: Improved CSS for mobile and desktop.
+* NEW: Many user important CSS codes transferred from inline tags to a CSS file. User adjustments can be easier done now.
+* FIXED: Slider content displayed twice in some cases.
+* FIXED: Image information in slider disappeared by browser resizing.
+* FIXED: Allow commenting out of gallery was not working in 5.36.10.
+
+
+= V5.36.10 =
+* FIXED: Select photo contest end time broken.
+
+= V5.36.0 =
+* NEW: Clearer activating, deactivating and deleting management in backend.
+* FIXED: Unnecessary marking of images in a slider.
+
+* FIXED: Slider displayed in wrong way on mobiles vertical view.
+* FIXED: "Users management" button does not appear in backend comments area.
+
+= V5.35.9 =
+* FIXED: Login with e-mail doesn't work.
+
+= V5.35.8 =
+* FIXED: Option blocks disappeared.
+
+= V5.35.7 =
+* NEW: Highlighting activated and deactivated images in backend.
+* NEW: Highlighting target area of moving elements.
+
+= V5.35.6 =
+* NEW: Opened image slider overlay all other html elements.
+
+= V5.35.5 =
+* FIXED: Images were not shown on all sites with a https connection.
+
+= V5.35.4 =
+* NEW: HTML field can be added to registry form now.
+* FIXED: Apostrophe and quotes could not be used in registry form.
+* FIXED: Images with apostroph and quotes in name could not be added to gallery.
+
+= V5.35.3 =
+* FIXED: For some servers wrong form upload URL was configurated.
+
+= V5.35.2 =
+* FIXED: "Check agreement" form field: title disappears or wrong title will be shown
+
+= V5.35.1 =
+* FIXED: Broken "Row view" gallery output in 5.35.
+* FIXED: Apostrophe and quotes could not be used in all form fields.
+
+= V5.35 =
+* NEW: HTML field can be added to upload form now.
+* FIXED: Behavior form fields line breaks.
+* FIXED: URL to uploaded image in admin e-mail.
+* FIXED: Apostrophe and quotes could not be used in form fields.
+* FIXED: Content doesn't disappear anymore if WordPress content filters are used.
+
+= V5.30 =
+* NEW: PO/MO files are added for translation in "plugins/contest-gallery/languages/".
+* NEW: Logout URL changed if you are logged in as "Contest Gallery User".
+
+= V5.20.7 =
+* FIXED: "Undefined variable: averageStarsRounded" text appears in frontend if 5 stars rating is activated.
+
+= V5.20.6 =
+* FIXED: Forward to an URL after login.
+* FIXED: Naming of forward to an URL after upload and login were interchanged.
+
+= V5.20.5 =
+* FIXED: File size check when uploading images in frontend.
+
+= V5.20.4 =
+* FIXED: "Show only users votes" didn't work if "Allow only registered users to vote" was also activated.
+* FIXED: "Show only users votes" didn't work for "Single pic view".
+
+= V5.20.3 =
+* FIXED: From time to time users see total rating when "Show only users votes" is activated.
+
+= V5.20.2 =
+* FIXED: Users votes overriden total 1 star image rating if "Show only users votes" option was activated.
+* FIXED: CSV data file couldn't be created in some cases.
+
+= V5.20.1 =
+* FIXED: Fast clicking arrow buttons in slider showed rating, comments and facebook icons containers twice.
+
+= V5.20.0 =
+* NEW: Random images sorting in frontend!
+* FIXED: Arrows CSS in single image view.
+* FIXED: Fast clicking arrow buttons in slider stopped sliding.
+
+= V5.12.7 =
+* NEW: Editors, Authors and Contributors are able to manage Contest Gallery.
+
+= V5.12.6 =
+* NEW: Improved CSS in frontend.
+* FIXED: CSS for WooCommerce themes improved.
+
+= V5.12.5 =
+* FIXED: Commenting in single pic view.
+* FIXED: Thumb view now compatible with themes done with Bootstrap CSS.
+
+= V5.12.1 =
+* FIXED: Improved rating differentiation between different login users with same ip.
+* FIXED: "Show only users votes" option did not work correctly for for height and row gallery view.
+
+= V5.12 =
+* NEW: Improved lazy load speed.
+* NEW: Form labels included for modern form behavior.
+* NEW: Fading effects deactivated, logic improved, faster gallery loading now.
+* FIXED: "Passwords do not match" is translated now.
+* FIXED: Unnecessary output when using registration form.
+* FIXED: Wrong uploader email is shown in backend in certain cases.
+
+= V5.11 =
+* FIXED: Conflict if using registry and upload form on same page.
+* FIXED: Show only users votes worked not right in some cases.
+* FIXED: Sometimes rating disappeared after voting.
+
+= V5.10 =
+* FIXED: Comments were not shown by clicking comment icon in gallery or slider.
+
+= V5.09 =
+* NEW: Additional pre settings when creating a new gallery.
+* FIXED: Alignment of elements improved when hovering in gallery.
+* FIXED: Single picture information editing was bugged in some cases.
+
+= V5.08 =
+* FIXED: One vote rating is now showing if export rating data CSV.
+* FIXED: Wrong IP generating if IP block voting is activated.
+* FIXED: Better position of close button in comments frame.
+
+= V5.07 =
+* NEW: Show only users votes. User see only own votes not the whole rating.
+* NEW: Faster Facebook button loading (works only for images added with version 5.07 or higher).
+* NEW: Add "Go back to gallery" button to Facebook images (works only for images added with version 5.07 or higher).
+
+= V5.06 =
+* NEW: Many new cool PRO options :)
+* FIXED: Url to image was broken in mails to admin.
+* FIXED: Url to facebook was not working in some cases.
+* FIXED: Real placeholder appears now in forms.
+* FIXED: Check agreement field in form is working right now.
+
+= V5.05 =
+* FIXED: Installation on multisite instances.
+* FIXED: Facebook like button on multisite instances.
+* FIXED: Check agreement input field in frontend.
+
+= V5.03 =
+* FIXED: Part of a gallery disappears if going via browser Back button on a gallery.
+* FIXED: Clicking browser Back button in backend logic improved.
+* FIXED: Forwading to an image from e-mail failed in some cases.
+
+= V5.02 =
+* FIXED: "You don't have permission to attach files to this post." appeared in some cases when uploading images in backend.
+* FIXED: Broken color picker for borders in backend.
+* FIXED: Border color was not shown in frontend.
+* FIXED: Wrong image url in CSV file.
+
+= V5.01 =
+* FIXED: Adding images in backend failed in some cases.
+* FIXED: Zip and download all gallery images.
+
+= V5.00 =
+* NEW: Use Wordpress media repository in backend for adding images to gallery and uploading.
+* NEW: Uploaded images in frontend will be also added to Wordpress media repository.
+* FIXED: Adding comments in gallery view and in slider because of missing "I am not a robot" field.
+
+= V4.16 =
+* FIXED: Wrong value appears for maximum upload size in backend.
+* FIXED: Wrong image URL on Facebook pages.
+
+= V4.15 =
+* NEW: Slider view options: hide complete info in the slider by default.
+* NEW: Improved "Hide until vote" process behavior in frontend.
+* FIXED: Facebook button doesn't appear in single pic view.
+* FIXED: Use field as URL configuration logic improved in backend.
+* FIXED: Comment area is responsive now.
+* FIXED: Quotes couldn't be saved in text fields.
+* FIXED: Unnecessary alt text in slider.
+* FIXED: Inserting tags in information fields for single pic view is possible now. Will be processed correctly.
+
+
+= V4.14 =
+* FIXED: Facebook button didn't appear in height and row view.
+* FIXED: Top border disappears after resizing in height view.
+
+= V4.13 =
+* NEW: Facebook button translated now. Translation depends on browser language. Supported languages: en, de, fr, es, pt, nl, ru, zh, ja
+* NEW: Improved Facebook button loading and reloading logic. Faster browser processing.
+* FIXED: Empty query message in admin area when saving.
+* FIXED: Wrong thumb view adjustment in some cases.
+
+= V4.12 =
+* FIXED: Voting doesn't work if "Allow only registered users to vote (Wordpress profile)" and "Allow vote via 1 star rating" are selected.
+* FIXED: Users receive activating information again even if they have already received these.
+
+= V4.11 =
+* FIXED: In some cases an SSL connection is recognized erroneously and https image URLs are generated unncessary.
+
+= V4.10 =
+* NEW: Configure quantity of votes per user!
+* NEW: Gallery background color.
+* FIXED: Sort rating bug.
+* FIXED: Mixed content message for https sites if checking via browser debuging tool.
+
+= V4.01 =
+* FIXED: In some cases an SSL connection is recognized erroneously and https image URLs are generated.
+
+= V4.00 =
+* NEW: Add round borders to every gallery view. Amazing look!
+* NEW: Add additional horizontal and vertical space between images in height and row view.
+* NEW: Align image info, rating and comment icon in gallery view.
+* NEW: "Go save" anchor appears in backend, if more then 4 images are shown. Leads directly to bottom save button.
+* NEW: Autoadjusting of thumb view on parent tag. Improved responsivness.
+* FIXED: "Allow only registered users to vote (Wordpress profile)" works again.
+* FIXED: Saving border, color and opacity was not always working.
+* FIXED: Dependencies in "Multiple pics options" impoved.
+* FIXED: Show info icon in slider css improved.
+* FIXED: Show info in slider was not working.
+
+
+= V3.51 =
+* FIXED: Voting box disappear if comments are disabled when 1 star rating is activated.
+* FIXED: Voting star image disappear if 1 star rating and row view are activated.
+* FIXED: Date and time of comments was not shown in user comments area in backend.
+
+= V3.50 =
+* NEW: Vote via 1 star rating. Select 5 stars or 1 star rating.
+* NEW: Name a gallery.
+* NEW: Arrange single pic information in "Single pic options" now.
+* FIXED: Top border appeared not in height view after resizing.
+* FIXED: Hovering if "Hide until vote" is activated.
+* FIXED: "Hide until vote" was not working in all cases if "Allow vote out of gallery" was activated.
+* FIXED: "Hide until vote" was not working in all cases if "Single pic view" was activated.
+* FIXED: Frequently hovering of an image caused permanently showing info.
+* FIXED: Wrong margin-bottom of URL div in slider on panorama pictures.
+
+= V3.40 =
+* NEW: Hide information button in slider. Especially useful when using on mobile phones.
+* NEW: Slider switching arrows removed on mobile phones. Better look now. Swichting works via swiping like it was before.
+* NEW: Reset gallery rating of all images.
+* NEW: Gallery logic improved. Faster gallery loading.
+* NEW: Slider logic improved. Faster slider loading.
+* FIXED: "Infinite Scroll" was not working on IE.
+* FIXED: Slider arrows blocked clicking on rating and commenting in some cases.
+* FIXED: Browser slowdown through hidden facebook button frames.
+* FIXED: Unnecessary space between gallery and upper div content if only one look is activated.
+* FIXED: Wrong vertical space between thumbs if "Infinite Scroll" and "Thumb view" are activated.
+* FIXED: "Forward after upload" was not working in some cases.
+
+= V3.34 =
+* FIXED: "Infinite Scroll" was not working in some cases.
+
+= V3.33 =
+* FIXED: "Infinite Scroll" only continues by scrolling completly to the bottom of the site.
+         Now just scroll to the height of the loading GIF and it will continue.
+* FIXED: "Height view" was not shown on Safari browser.
+* FIXED: Information of last image was not shown if "Infinite Scroll" and "Height view" were activated.
+
+= V3.32 =
+* FIXED: Wrong order by switching between images if "Infinite Scroll" and Single pic view" are activated.
+
+= V3.31 =
+* FIXED: Infinite Scroll with Lazy Load activation failed in some cases.
+
+= V3.30 =
+* NEW: Infinite Scroll with Lazy Load. Large galleries, with many images, which will be loaded step by step, are now possible.
+* NEW: Slider performance highly improved. Images are now loaded step by step instead all at one time.
+* NEW: Fading appearence of images in the gallerie. Looks much nicer now as instant loading.
+* FIXED: User comments did not appear in admin-mail.
+* FIXED: Unnecessary backslashes will be not generated anymore in admin- and user-mail.
+* FIXED: Paragraphs (p), breaks (br) and other html tags were not regonzied in user-mail. No continous text anymore.
+
+= V3.21 =
+* Fixed: Facebook button bug if images were uploaded in frontend.
+* Fixed: Facebook button bug if button is used in height view.
+* Fixed: If rating out of gallery and out of slider is activated values in slider and gallery getting different.
+
+= V3.20 =
+* NEW: Forward directly to full size picture by clicking an image out of gallery.
+* NEW: "Only gallery view" option. Disable single image view completly. Manage whole contest just outside gallery if you like.
+* NEW: Slider performance improved. Especially after uploading new images or even more after creating new gallery you will see the effect.
+* NEW: Facebook like button performance improved. Especially after uploading new images or even more after creating new gallery you will see the effect.
+* NEW: Improved options management in backend.
+* Fixed: Facebook button forwarded to wrong URL after like, if image was uploaded as png or gif.
+
+
+= V3.13 =
+* NEW: User info can be shown always in the slider, not only by left mousehold.
+* NEW: Configure minimum images upload (Maximum images upload already availible) for front end.
+* NEW: Photo contest end time blocks also upload in frontend.
+* Fixed: Frontend upload form field restrictions messages.
+* Fixed: Deactivating "Inform admin after very uplooad" was not possible.
+* Fixed: URL button bug.
+
+= V3.11 =
+* Fixed: Right sidebar navigation slide under the Contest Gallery if thumb or row view are activated.
+
+= V3.10 =
+* NEW: Facebook Like button.
+* NEW: Add Facebook Like button to slider or single pic view.
+* NEW: Add Facebook Like button to gallery view.
+* NEW: Improved loading speed main admin images area.
+* Fixed: Set maximum number of characters in form fields.
+* Fixed: Using slider image url didn't open slider with right image.
+* Fixed: Url forwarding out of user notification mails.
+
+= V3.09 =
+* Fixed: "Reset informed" was not working.
+* Fixed: "Inform users when activating image" was not working.
+* Fixed: Informed users when "Reset informed" was used.
+
+= V3.08 =
+* Fixed: Thumb and row view broken, if comments are deactivated.
+
+= V3.07 =
+* Fixed: The new contest_gal1ery_mail_admin table, created in 3.06, was not deleted if delete Contest Gallery Plugin.
+
+= V3.06 =
+* NEW: Create and download user and image data CSV.
+* NEW: Inform admin via mail after every front end upload. Can be configurated in "Edit Options">>>"Upload Options".
+* Fixed: "Inform users when activate pictures" couldn't be deactivated.
+* Fixed: Reload of user upload by refresh browser if "Confirmation Text after Upload" was activated.
+* Fixed: CSS improvement in front end.
+
+= V3.05 =
+* NEW: Multiple images upload in front end. Configure how many images a user can upload.
+* NEW: Configure max size in MB of an image for upload in front end.
+* NEW: Use escape key to close slider, comments in slider or comments in gallery.
+* Fixed: Gallery and upload shortcode breaks template of pages with right-sided widgets.
+* Fixed: "Plz don't fiddle the upload" message appear after an upload for logged in users (Admins).
+
+= V3.04 =
+* Fixed: Creating gallery bug.
+
+= V3.03 =
+* NEW: Much faster slider performance, especially by navigating with arrow keys.
+* NEW: Configure max width or height in px of an image for front end users upload.
+* NEW: If extern URL for images is choosen as option then shows only URL link in slider if URL field is not empty.
+* Fixed: First image of gallery was not shown in right way on certain themes.
+* Fixed: Visual bug in row view.
+
+= V3.02 =
+* NEW: Forward from an image to external URL you like! Define a text field of upload form as URL field and use it to forward from slider, single pic view or directly out of gallery to a page you like.
+* NEW: Forward from an image to external URL in a new tab (_blank) or in same window.
+* Fixed: After commenting first time an image directly out of gallery, this comment was only displayed after reloading page.
+* Fixed: Result was hidden after voting directly out of Row View.
+* Fixed: Fast clicking arrows to the end of the slider stopped animation on wrong point.
+* Fixed: Wrong image id was displayed in URL by clicking to the right end of the slider.
+* Fixed: Sticky WordPress Theme Menu overlapped a slider content or forced wrong displaying of first clicked image.
+
+
+= V3.01 =
+* NEW: Rating stats of each image now available in backend.
+* NEW: Navigate in slider with right and left arrow keys of keyboard.
+* Fixed: Zip all files was broken after last update. Now fixed.
+* Fixed: Image information in slider is shown in the right way. Only chosen and filled fields are shown.
+* Fixed: Comments count and icon is not shown any more in gallery view if comments are deactivated.
+
+= V3.00 =
+* NEW: Modern image slider with scaled images and mouse swiping function.
+* NEW: Rate in slider.
+* NEW: Rate with hide until vote function in slider.
+* NEW: Comment in slider.
+* NEW: Show user info in slider by mousehold.
+* NEW: Completely responsive.
+* NEW: Completely touch devices optimized.
+* NEW: Rate directly in gallery view.
+* NEW: Rate with hide until vote function in gallery view.
+* NEW: Comment directly in gallery view.
+* NEW: Recognizing and showing language processed by server not by browser.
+	   Shows instantly the right translation. All expressions can be found in frontend/check-language.php.
+* Fixed: Show actual not cached version when going back to image overview in admin area via browser back button.
+* Fixed: Choose all in image overview admin area.
+
+= V2.04 =
+* Fixed: Broken url in email when "Automatically activate users form upload" and "Inform users when activate pictures" is.
+* Fixed: Files with "JPEG" ending (normally JPG is a typical Windows ending) are now also possible to upload without errors.
+* Fixed: Last rating is not shown when "Hide until vote" option is used.
+* Fixed: Conflict with other plugins because of "create_zip()".
+* Fixed: Puting apostrophe (" ') in comments is now possible.
+* Fixed: Dutch translation improved.
+* Fixed: Translation logic bug.
+
+
+= V2.03 =
+* Fixed: Single image view now fully responsive and optimized for mobile phones.
+* Fixed: Height view visual bug in Firefox.
+* Fixed: Height view resizing bug.
+* Fixed: Save border width 0 bug.
+* Fixed: Translation bugs.
+* Fixed: Update mechanics improved.
+
+= V2.01 =
+* Fixed: Update mechanics improved.
+
+= V2.00 =
+* NEW: Define border width, color and opacity in gallery view. Absolutely unique wordpress plugin function.
+	   Allows high-end look!
+* NEW: Choose a user information field which will be shown in gallery view.
+* NEW: Allow to show information always in gallery view, without hovering.
+* Fixed: Information looses when upload form field row is changed, bug resolved.
+* Fixed: Mechanics in gallery view improved, more precise.
+* Fixed: Missing loading.gif image bug for new versions resolved, rating possible.
+* Fixed: Browser language now recognized on Internet Explorer.
+* Fixed: Dutch language improved.
+
+= V1.24 =
+* Fixed: Gallery view not broken anymore if it's completly without voting and comments.
+* Fixed: Division by zero error message in row view doesn't appear anymore.
+* Fixed: Datapicker bug in gallery options resolved.
+
+
+= V1.23 =
+* NEW: New Option: allows only users to vote who are registered via wordpress profile.
+* Fixed: Facebook like button removed. Doesn't work appropriate. Has to be overworked completely.
+* Fixed: Box width optimized in gallery view.
+* Fixed: Datapicker error doesn't appear in console anymore.
+* Fixed: Creating gallery bug is fixed.
+
+
+= V1.22 =
+* Fixed: Comment date, minutes and hours are shown in the right way.
+* Fixed: When Russian speech is shown all boxes are now shown in the right way.
+* Fixed: If hight view is chosen as main gallery view comments and rating are aligned left again.
+
+
+= V1.21 =
+* Fixed: No wrong view anymore when upload form is loaded in a site with widget.
+* Fixed: Languages updated.
+
+= V1.20 =
+* Fixed: Bugs resolved.
+
+= V1.19 =
+* Fixed: Localization finally works! Localization file uploaded.
+* Fixed: Undefined variable message "Edit upload form" area
+* Fixed: Define output options shows only when upload fields are created
+
+= V1.18 =
+* NEW: Localization! Front end speech is shown in users browser language.
+       Three languages supported in the moment: de, ru and nl. Plz contact me for further languages
+	   or for speech improvement in actual version!!!
+* Fixed: Bug in row view resolved!!!
+
+= V1.17 =
+* Fixed: Creating galleries bug done by last update resolved!!!
+* Fixed: Undefined variable message in thumb gallery view.
+
+
+= V1.16 =
+* NEW: Select end date when photo contest ends. Pictures can't be voted anymore but the end result is shown.
+* Fixed: Selected view is now always forwarded every time when clicking through gallery.
+* Fixed: No jump anymore when clicking plz vote in single image view.
+
+= V1.15 =
+* NEW: New option: images can be instantly activated after user upload in front end. <a href="http://screencast.com/t/DgFciKs8gS" target="_blank">Watch here...</a>
+* Fixed: Plz vote function in single image view repaired.
+
+= V1.14 =
+* Fixed: Sorting function was broken. Repaired.
+
+= V1.13 =
+* Fixed: No jumping of thumb view when switching between views in front end.
+* Fixed: Undefined variable in single pic view isn't shown anymore.
+
+= V1.12 =
+* NEW: Votes will be hiding until user voted an image. It guarantee a voting without beeing influenced of voting before.
+	   Absolutely unique! <a href="https://www.contest-gallery.com/height-view-example-2/" target="_blank">Watch here...</a>
+	   To configure it go **Gallery options** and then check **Hide until vote**.
+
+= V1.11 =
+* Fixed: Error reporting, display errors deactivated. Errors of other plugins will not shown anymore.
+* Fixed: WP_Editor, for configuring e-mail text, shows now only html text editor tab. It makes e-mails visual more precise.
+
+= V1.10 =
+* Fixed: Stars don't jump anymore when rated.
+* Fixed: Facebook button doesn't jump anymore when rated.
+* Fixed: Unused functions removed. No conflict with another plug-ins anymore.
+* Fixed: Saved IPs of rated images were cut. Now they have full length.
+
+= V1.09 =
+* Fixed: Uploaded images in front end can contain dot characters now in their names
+* Fixed: If switching between views, thumb view doesn't jump vertical any more
+
+= V1.08 =
+* Fixed: Put comments off bug
+* Fixed: undefined index display errors for restricted php versions
+* Fixed: reset all informed works now
+* Fixed: sorting order number change when sorting in options
+* Fixed: explanation in options appears relating images resolution restriction option
+* Fixed: upload form css improved
+
+= V1.07 =
+* Fixed: CSS bugs single pic view frontend
+
+= V1.06 =
+* NEW: Wordpress Multi Site function supported
+* NEW: Picture names can consist of 1.000 characters instead only of 100
+* Fixed: Saving data bug backend
+* Fixed: Switching between views bug frontend

@@ -10,3 +10,63 @@
 [07/18/2020 6:47:17 PM] - Payment has been processed successfully.
 [07/18/2020 6:47:17 PM] - Redirecting to results page "https://nationalparkg1.me/stripe-checkout-result/"
 
+[07/19/2020 2:59:48 PM] - Payment processing started.
+[07/19/2020 2:59:48 PM] - Got product ID: 260
+[07/19/2020 2:59:48 PM] - Firing asp_ng_process_ipn_product_item_override filter.
+[07/19/2020 2:59:48 PM] - Firing asp_ng_process_ipn_payment_data_item_override filter.
+[07/19/2020 2:59:49 PM] - The transaction ID of this notification is: ch_1H6dzRDMP6aM0y4mcvQDZ8eA
+[07/19/2020 2:59:49 PM] - Constructing checkout result and order data.
+[07/19/2020 2:59:49 PM] - Firing asp_ng_payment_completed filter.
+[07/19/2020 2:59:49 PM] - Firing asp_ng_payment_completed_update_pi filter.
+[07/19/2020 2:59:49 PM] - Firing asp_stripe_payment_completed action.
+[07/19/2020 2:59:49 PM] - Payment has been processed successfully.
+[07/19/2020 2:59:49 PM] - Redirecting to results page "https://nationalparkg1.me/stripe-checkout-result/"
+
+[07/19/2020 3:02:52 PM] - Payment processing started.
+[07/19/2020 3:02:52 PM] - Got product ID: 260
+[07/19/2020 3:02:52 PM] - Firing asp_ng_process_ipn_product_item_override filter.
+[07/19/2020 3:02:52 PM] - Firing asp_ng_process_ipn_payment_data_item_override filter.
+[07/19/2020 3:02:53 PM] - The transaction ID of this notification is: ch_1H6e2RDMP6aM0y4mgAd5oXXL
+[07/19/2020 3:02:53 PM] - Constructing checkout result and order data.
+[07/19/2020 3:02:53 PM] - Firing asp_ng_payment_completed filter.
+[07/19/2020 3:02:53 PM] - Firing asp_ng_payment_completed_update_pi filter.
+[07/19/2020 3:02:53 PM] - Firing asp_stripe_payment_completed action.
+[07/19/2020 3:02:53 PM] - Payment has been processed successfully.
+[07/19/2020 3:02:53 PM] - Redirecting to results page "http://Thank%20you%20for%20purchasing%20the%20National%20PArk%20Day%20Pass.%20Make%20sure%20to%20download%20and%20save%20your%20pass%20by%20clicking%20the%20link%20below"
+
+[07/19/2020 3:05:47 PM] - Payment processing started.
+[07/19/2020 3:05:47 PM] - Got product ID: 260
+[07/19/2020 3:05:47 PM] - Firing asp_ng_process_ipn_product_item_override filter.
+[07/19/2020 3:05:47 PM] - Firing asp_ng_process_ipn_payment_data_item_override filter.
+[07/19/2020 3:05:47 PM] - The transaction ID of this notification is: ch_1H6e5GDMP6aM0y4mJeGIW79R
+[07/19/2020 3:05:47 PM] - Constructing checkout result and order data.
+[07/19/2020 3:05:47 PM] - Firing asp_ng_payment_completed filter.
+[07/19/2020 3:05:47 PM] - Firing asp_ng_payment_completed_update_pi filter.
+[07/19/2020 3:05:47 PM] - Firing asp_stripe_payment_completed action.
+[07/19/2020 3:05:47 PM] - Payment has been processed successfully.
+[07/19/2020 3:05:47 PM] - Redirecting to results page "https://nationalparkg1.me/stripe-checkout-result/"
+
+[07/19/2020 3:06:31 PM] - Payment processing started.
+[07/19/2020 3:06:31 PM] - Got product ID: 253
+[07/19/2020 3:06:31 PM] - Firing asp_ng_process_ipn_product_item_override filter.
+[07/19/2020 3:06:31 PM] - Firing asp_ng_process_ipn_payment_data_item_override filter.
+[07/19/2020 3:06:32 PM] - The transaction ID of this notification is: ch_1H6e5yDMP6aM0y4mCEiKboPg
+[07/19/2020 3:06:32 PM] - Constructing checkout result and order data.
+[07/19/2020 3:06:32 PM] - Firing asp_ng_payment_completed filter.
+[07/19/2020 3:06:32 PM] - Firing asp_ng_payment_completed_update_pi filter.
+[07/19/2020 3:06:32 PM] - Firing asp_stripe_payment_completed action.
+[07/19/2020 3:06:32 PM] - Payment has been processed successfully.
+[07/19/2020 3:06:32 PM] - Redirecting to results page "https://nationalparkg1.me/stripe-checkout-result/"
+
+[07/19/2020 3:10:19 PM] - Payment processing started.
+[07/19/2020 3:10:19 PM] - Got product ID: 260
+[07/19/2020 3:10:19 PM] - Firing asp_ng_process_ipn_product_item_override filter.
+[07/19/2020 3:10:20 PM] - Firing asp_ng_process_ipn_payment_data_item_override filter.
+[07/19/2020 3:10:20 PM] - The transaction ID of this notification is: ch_1H6e9eDMP6aM0y4m8YqEzXql
+[07/19/2020 3:10:20 PM] - Constructing checkout result and order data.
+[07/19/2020 3:10:20 PM] - Firing asp_ng_payment_completed filter.
+[07/19/2020 3:10:20 PM] - Firing asp_ng_payment_completed_update_pi filter.
+[07/19/2020 3:10:20 PM] - Firing asp_stripe_payment_completed action.
+[07/19/2020 3:10:20 PM] - Payment has been processed successfully.
+[07/19/2020 3:10:20 PM] - Redirecting to results page "https://nationalparkg1.me/stripe-checkout-result/"
+

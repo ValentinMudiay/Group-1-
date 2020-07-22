@@ -1,0 +1,523 @@
+.color_h2,.switch-label{text-transform:uppercase}
+.overview-page ul{list-style:none}
+.overview-page ul li ul{list-style:none;padding-left:30px}
+.overview-page ul li b{font-size:15px}
+.overview-page ul li{line-height:20px}
+.overview-page ul ul li{padding:5px 5px 5px 10px;background-size:15px;line-height:20px;font-size:15px;font-style:italic;color:#555;}
+ul.overview-listing{margin-left:25px}
+.fixed .column-slug{width:10%}
+.fixed .column-id{width:4%}
+.fixed .column-starttime{width:8%}
+.fixed .column-expiry{width:9%}
+.fixed .column-name{width:20%}
+.fixed .column-description{width:14%}
+.fixed .column-posts{width:11%}
+.fixed .column-cb{width:4%}
+.move_contestant{font-weight:400}
+.sampledata{margin:10px;padding:20px;border:2px solid #1978db;border-radius:2px;}
+.titledata{font-weight:700}
+.manage-questions th{border:1px solid #e1e1e1!important;border-collapse:collapse;font-weight:700}
+.voting_logs{margin-top:20px}
+.new_contestant_add{margin-left:20px!important;margin-top:3px!important}
+.new_contestant_add:hover{background:#2ea2cc!important;border-color:#000!important;color:#fff!important}
+#custom_table_length{float:left;margin:10px 20px 10px 0;font-weight:700}
+div#custom_table_filter{float:right;margin-right:0;}
+#custom_table .wpvc_vote_dataTables_empty{font-weight:700;padding:10px 0;text-align:center;font-size:14px}
+.custom_field_h3,h2,h3{font-size:20px!important;}
+.user_field_regp{margin-bottom:0;padding-bottom:0;padding:0 1%;}
+.custom_field_h3{color:#1976d2;font-weight:800 !important;border-bottom:1px solid #eaeaea;text-transform:uppercase;}
+.new_contest_cust_fld th{width:240px}
+.question_checkbox{margin:7px 0 22px 8px!important;vertical-align:top!important}
+#delete_question{margin-left:10px!important}
+.add_cust_field{margin-left:5px!important}
+.error{padding-left:10px;color:red}
+#custom_table tr.even{background:#f5f5f5}
+.settings_content{float:left;width:70%;padding:5px 15px;background:#fff;border:1px solid #e5e5e5;box-sizing:border-box}
+input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus{border-color:#1987d2;box-shadow:none;}
+input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea{border:1px solid #ddd;box-shadow:none;background-color:#fff;color:#32373c;outline:0;transition:50ms border-color ease-in-out;}
+#addtag .custom_field_select{max-width:300px;}
+.custom_field_select{background:#fff !important;}
+.custom_field_select option{padding-top:5px;padding-bottom:5px;}
+body.post-type-contestants #wpcontent input[type=submit]{min-width:inherit;padding-left:15px;padding-right:15px}
+body.admin_page_fieldcontestant #wpcontent select,body.post-type-contestants #wpcontent select,body.contest_page_fieldregistration #wpcontent select,body.admin_page_votes_export #vote_contest_term,body.admin_page_votes_export select.export_contestant,body.admin_page_votinglogs select,body.contest_page_votes_purge #vote_contest_term,body.contest_page_votes_settings select,body.admin_page_votes_csv select,body.admin_page_votes_setting_paginate select{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../image/select_bg.png) center right no-repeat #fff;background-size:30px;}
+#bulk-action-selector-top{margin-bottom:10px}
+.settings_content h4{border-bottom:1px solid #ddd;font-weight:800 !important;padding-bottom:5px;text-transform:uppercase;color:#1978db;}
+.settings_content .description{width:60%;margin-top:10px;display:inline-block;margin-left:5px;}
+h2,h3{color:#0276a0;font-weight:700!important}
+h4{font-size:16px;color:#ec5916;}
+body.admin_page_votes_setting_paginate .settings_content h1, .color_h2{color:#1978db;font-size:22px!important;margin-top:36px;}
+body.admin_page_votes_setting_paginate .settings_content h1{text-transform:uppercase;font-weight:600}
+body.admin_page_votes_setting_paginate .settings_content h3{border-bottom:1px solid #ddd;padding-bottom:5px;font-size:14px !important;text-transform:uppercase;color:#1978db;font-weight:800 !important;}
+.settings_upd{margin-left:20%!important;margin-top:15px!important;width:68.5%;}
+.admin_page_votes_setting_paginate .settings_upd{margin-left:20%!important;margin-top:15px!important;width:68.5%;}
+.new_setting_upd{display:block;width:68.5% !important;margin-left:16% !important;position:absolute;}
+.wpvc_contestants-row{clear:both;margin:5px 0;padding:5px;width:97%}
+.wpvc_contestants-row label{color:#555;font-weight:700;margin-right:3px}
+.wpvc_contestants-field input{padding:7px}
+.wpvc_contestants-row .required-mark{color:red}
+.switch{position:relative;display:block;vertical-align:top;width:100px;height:35px;padding:3px;margin:0;background:linear-gradient(to bottom, #eee, #FFF 25px);background-image:-webkit-linear-gradient(top, #eee, #FFF 25px);border-radius:18px;cursor:pointer}
+.switch-input{position:absolute;top:0;left:0;opacity:0}
+.switch-label{position:relative;display:block;height:inherit;font-size:12px;background:#eceeef;border-radius:inherit;box-shadow:inset 0 1px 2px rgba(0, 0, 0, .12), inset 0 0 2px rgba(0, 0, 0, .15)}
+.switch-label:after,.switch-label:before{position:absolute;top:50%;margin-top:-.5em;line-height:1;-webkit-transition:inherit;-moz-transition:inherit;-o-transition:inherit;transition:inherit}
+.switch-label:before{content:attr(data-off);right:11px;color:#000;text-shadow:0 1px rgba(255, 255, 255, .5)}
+.switch-label:after{content:attr(data-on);left:11px;color:#FFF;text-shadow:0 1px rgba(0, 0, 0, .2);opacity:0}
+.switch-input:checked~.switch-label{background:#E1B42B}
+.switch-input:checked~.switch-label:before{opacity:0}
+.switch-input:checked~.switch-label:after{opacity:1}
+.switch-handle{position:absolute;top:4px;left:4px;width:28px;height:28px;background:linear-gradient(to bottom, #FFF 40%, #f0f0f0);background-image:-webkit-linear-gradient(top, #FFF 40%, #f0f0f0);border-radius:100%;box-shadow:1px 1px 5px rgba(0, 0, 0, .2)}
+.switch-handle:before{content:"";position:absolute;top:50%;left:50%;margin:-6px 0 0 -6px;width:12px;height:12px;background:linear-gradient(to bottom, #eee, #FFF);background-image:-webkit-linear-gradient(top, #eee, #FFF);border-radius:6px;box-shadow:inset 0 1px rgba(0, 0, 0, .02)}
+.switch-input:checked~.switch-handle{left:74px;box-shadow:-1px 1px 5px rgba(0, 0, 0, .2)}
+.switch-slide{padding:0;background:0 0;border-radius:0}
+.switch-slide .switch-label{box-shadow:none;background:0 0}
+.switch-slide .switch-label:after,.switch-slide .switch-label:before{width:100%;height:67%;top:5px;left:0;text-align:center;padding-top:13%;border-radius:2px}
+.switch-slide .switch-label:after{color:#FFF;background:#1978db;font-weight:700;left:-100px;}
+.switch-slide .switch-label:before{background:#c3c3c3;color:#fff}
+.switch-slide .switch-handle{display:none}
+.switch-slide .switch-input:checked~.switch-label{background:0 0;border-color:#0073aa}
+.switch-slide .switch-input:checked~.switch-label:before{left:100px}
+.switch-slide .switch-input:checked~.switch-label:after{left:0}
+.switch-handle,.switch-label{transition:All .3s ease;-webkit-transition:All .3s ease;-moz-transition:All .3s ease;-o-transition:All .3s ease}
+.wpvc_upgrade_result{display:none;font-size:16px;margin-top:20px}
+.mce-i-wpvc_button-own-icon{background-image:url(../image/wpvc_button-own-icon.png)}
+table.form-table label{color:#23282d;font-weight:600}
+textarea{border-radius:6px}
+.wpvc_voting_index{background:#fff;display:block;width:100%;padding:20px;box-sizing:border-box;border:1px solid #eaeaea;}
+.version_block{display:-webkit-flex;display:flex;margin:-20px -20px 0;background:#f6f6f6;padding:15px;color:#1978db;border-bottom:1px solid #eaeaea;}
+.version_block .version_info{line-height:30px;font-size:20px;font-weight:800;margin-right:15px;-webkit-flex:1;-moz-flex:1;flex:1;text-transform:uppercase}
+.version_block a{color:#fff;outline:0;border:1px solid #1978db;background:#1978db;text-decoration:none;margin:0 10px;line-height:30px;padding:0 15px;border-radius:2px;font-weight:600;font-size:14px;}
+.version_block a:hover,.version_block a:focus{background:#1978db;outline:0;color:#fff;box-shadow:none !important;}
+.wpvc_voting_index .info{background:#f3f7f8;padding:20px;line-height:10px;color:#1978db;border:1px solid #eaeaea;text-transform:uppercase;font-weight:700 !important;}
+.wpvc_voting_index ul.overview-listing li b{font-size:21px;margin-top:0px;font-weight:700;display:inline-block;-webkit-text-fill-color:#1978db;line-height:33px;color:#1978db;text-transform:uppercase;}
+.wpvc_voting_index ul.overview-listing li p i{font-weight:500;font-style:initial;color:#1978db;}
+.wpvc_voting_index ul.overview-listing li u{font-weight:800;font-style:initial;color:#1978db;}
+body.post-type-contestants #wpbody-content h1, body.post-type-contestants #wpbody-content h2, body.post-type-contestants #wpbody-content h3, body.post-type-contestants h1.wp-heading-inline{-webkit-text-fill-color:#1978db;line-height:initial;color:#1978db;}
+#form1 #delete_question{color:#fff}
+#wp_voting_software_license_key{border-radius:15px}
+#show-settings-link{background:0 0!important;box-shadow:none!important;-webkit-text-fill-color:#72777c!important}
+.sidebar_wpvc_vote+h2.color_h2{display:block!important}
+#contest_csv_submit, #move_contest_submit, #votes_delete_btn, #votes_export_button, .button.cleartime{background:#1978db;color:#fff;box-shadow:none !important;border:1px solid #1978db;border-radius:2px;outline:none;height:40px!important;}
+.button.cleartime:hover{background:#0b4c7c;color:#fff}
+#contest_category-add-submit:hover,#insert-media-button:hover,#wpvc_vote_excerpt_controller_add_tag:hover,#qt_vote_admin_mail_content_toolbar .button:hover{background:#ebebeb!important}
+#wpvc_vote_excerpt_controller_tags_table{margin-bottom:15px}
+#wpvc_vote_excerpt_controller_select_all{padding-bottom:15px;display:inline-block}
+#ed_toolbar .button,#qt_vote_admin_mail_content_toolbar .button,#insert-media-button,#post-preview,#qt_contest-rules_toolbar .button,#save-post{border:1px solid #ddd!important}
+#qt_contest-rules_toolbar .button:hover{background:#ddd!important}
+.wpvc_admin_left{width:50%;float:left;margin:0 25px 0 0;}
+.wpvc_admin_left img{width:100%;}
+.wp_voting-upsell-under-box{background-color:#f6fbff;border:1px solid #d6ecff;border-radius:3px;padding:10px 20px;margin-top:20px !important;margin-bottom:20px !important;width:95%;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;margin:0 auto;}
+.wp_voting-upsell-under-box p{font-size:16px;margin-bottom:15px;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;}
+#wp_voting-settings-pages p.wp_voting-upsell-button-par{margin-bottom:1em;}
+body.post-type-contestants #doaction2:hover,body.post-type-contestants #doaction:hover,body.post-type-contestants #form1 #delete_question:hover,body.post-type-contestants #wpbody-content h2 .button:hover,body.post-type-contestants .cleartime:hover,body.post-type-contestants .page-title-action:hover,body.post-type-contestants .wp-core-ui .button-primary:hover,body.post-type-contestants #submit:hover,body.post-type-contestants #search-submit:hover,body.admin_page_move_posts #contest_csv_submit:hover,body.admin_page_move_posts #move_contest_submit:hover,body.admin_page_move_posts #votes_delete_btn:hover,body.admin_page_move_posts #votes_export_button:hover,body.admin_page_votes_export #votes_export_button:hover,body.admin_page_votinglogs #doaction:hover,body.admin_page_votinglogs #doaction2:hover,body.admin_page_fieldcontestant a.new_contestant_add:hover,body.admin_page_fieldcontestant .button-primary:hover,body.admin_page_fieldcontestant #form1 #delete_question:hover,body.contest_page_votes_purge #votes_delete_btn:hover,body.contest_page_fieldregistration #delete_question:hover,body.contest_page_fieldregistration .button-primary:hover,body.contest_page_fieldregistration .button:hover,body.contest_page_votes_settings input[type=submit]:hover,body.admin_page_votes_setting_paginate input[type=submit]:hover,body.contest_page_votes_settings #wpvc_vote_excerpt_controller_add_tag:hover{background:#1978db !important}
+body.post-type-contestants input[type=checkbox],body.admin_page_move_posts input[type=checkbox],body.admin_page_votes_export input[type=checkbox],body.admin_page_votinglogs input[type=checkbox],body.admin_page_fieldcontestant input[type=checkbox],body.contest_page_votes_purge input[type=checkbox],body.contest_page_fieldregistration input[type=checkbox],body.contest_page_votes_settings input[type=checkbox],body.admin_page_votes_setting_paginate input[type=checkbox],body.contest_page_votes_settings input[type=checkbox]{border:2px solid #1978db;height:19px;width:19px}
+body.post-type-contestants input[type=checkbox]:checked:before,body.admin_page_move_posts input[type=checkbox]:checked:before,body.admin_page_votes_export input[type=checkbox]:checked:before,body.admin_page_votinglogs input[type=checkbox]:checked:before,body.admin_page_fieldcontestant input[type=checkbox]:checked:before,body.contest_page_votes_purge input[type=checkbox]:checked:before,body.contest_page_fieldregistration input[type=checkbox]:checked:before,body.contest_page_votes_settings input[type=checkbox]:checked:beforebody.admin_page_votes_setting_paginate input[type=checkbox]:checked:before,body.contest_page_votes_settings input[type=checkbox]:checked:before{color:#1978db}
+.mail_copy_textarea{vertical-align:middle;width:400px;height:40px;padding:10px;}
+.copy_text{color:#d76232 !important;font-weight:500;}
+#selected_term_post_listing br{line-height:1.8;}
+.sampledata{font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;}
+ul.wpvc_import_xl_listing{list-style-type:square;padding-left:25px;}
+@media (max-width:850px){.settings_content{width:65% }
+}
+@media (max-width:600px){.version_block{display:block;padding-bottom:5px;text-align:center }
+ .version_block .version_info{width:100%;margin:0 0 15px;text-align:center }
+ .version_block a{display:inline-block;margin-bottom:15px }
+ ul.overview-listing{margin:0 }
+ .overview-page ul ul li{background:url(../image/bullet.png) left 10px no-repeat;background-size:15px }
+ .overview-page ul li ul{padding-left:15px }
+}
+.form_build_textarea{border:0px;background:transparent;border-radius:0;background-color:transparent !important;outline:0px;box-shadow:inset 0 1px 2px transparent;resize:none;}
+.sidebar_wpvc_vote{width: 300px;float:left;min-width:200px;margin-top: 2%;background: white;margin-right: 10px;}
+body.post-type-contestants #doaction, body.post-type-contestants #doaction2, body.post-type-contestants #form1 #delete_question, body.post-type-contestants #wpbody-content h2 .button, body.post-type-contestants .cleartime, body.post-type-contestants .page-title-action, body.post-type-contestants .wp-core-ui .button-primary, body.post-type-contestants #submit, body.post-type-contestants #search-submit, body.admin_page_move_posts #contest_csv_submit, body.admin_page_move_posts #move_contest_submit, body.admin_page_move_posts #votes_delete_btn, body.admin_page_move_posts #votes_export_button, body.admin_page_votes_export #votes_export_button, body.admin_page_votinglogs #doaction, body.admin_page_votinglogs #doaction2, body.admin_page_fieldcontestant .button-primary, body.admin_page_fieldcontestant #form1 #delete_question, body.contest_page_votes_purge #votes_delete_btn, body.contest_page_fieldregistration #delete_question, body.contest_page_fieldregistration .button-primary, body.contest_page_fieldregistration .button, body.contest_page_votes_settings input[type=submit], body.admin_page_votes_setting_paginate input[type=submit], body.contest_page_votes_settings #wpvc_vote_excerpt_controller_add_tag{background:#1978db;border:none!important;padding:0 30px!important;line-height:30px!important;height:40px!important;text-shadow:none!important;color:#fff !important;box-shadow:0 0px 0 #006799;}
+body.post-type-contestants #wpcontent input[type=search], body.post-type-contestants #wpcontent input[type=text], body.post-type-contestants #wpcontent select, body.admin_page_fieldcontestant #wpcontent select, body.admin_page_fieldcontestant #wpcontent input[type=text], body.contest_page_fieldregistration #wpcontent select, body.contest_page_fieldregistration #wpcontent input[type=text], body.admin_page_votes_export #vote_contest_term, body.admin_page_votes_export select.export_contestant, body.admin_page_votinglogs select, body.admin_page_votes_csv select, body.contest_page_votes_purge #vote_contest_term, body.contest_page_votes_settings select, body.contest_page_votes_settings input[type=search], body.contest_page_votes_settings input[type=text], body.admin_page_votes_setting_paginate input[type=text], body.admin_page_votes_setting_paginate select{border-radius:2px;padding:0 10px!important;min-height:40px;min-width:300px;width:300px;}
+.settings_content button#save_as{border:none!important;padding:0 30px!important;line-height:30px!important;height:40px!important;text-shadow:none!important;color:#fff !important;box-shadow:0 3px 0 #006799;}
+.owt-accordion ul li>a{text-transform:uppercase;color:#333;font-weight:800 !important;}
+.overview-page ul ul li u{color:#d76232 !important;text-decoration:none;}
+.wpvc_voting_index ul.overview-listing li p i a:hover{color:#da6232;}
+.wpvc_voting_index ul.overview-listing li p i a{color:#1978db;text-transform:uppercase;}
+.overview-page ul li ul{list-style:circle;border-bottom:1px solid #eaeaea;}
+body.post-type-contestants .cleartime{height:30px!important;margin-top:10px;margin-left:3px;}
+body.post-type-contestants #doaction2,body.post-type-contestants #doaction{height:40px !important}
+.wrap h2{text-transform:uppercase;font-weight:800 !important;color:#1978db;}
+.delete_vote{background:#da6232;border:1px solid #da6232;color:#fff;outline:0;box-shadow:none !important;border-radius:2px;line-height:2;}
+body.admin_page_fieldcontestant a.new_contestant_add:hover,body.admin_page_fieldcontestant a.new_contestant_add:active{height:36px;box-shadow:none !important;background:#1978db !important;border-radius:2px !important;border:1px solid #1978db !important;line-height:22px;font-weight:500 !important;outline:0 !important;}
+body.admin_page_fieldcontestant .button-primary,body.admin_page_fieldcontestant .button-primary:active, body.admin_page_fieldcontestant .button-primary:focus,body.contest_page_fieldregistration .button, body.contest_page_fieldregistration .button:active, body.contest_page_fieldregistration .button:focus,body.contest_page_fieldregistration .button-primary, body.contest_page_fieldregistration .button-primary:focus{background:#1978db;border:none!important;padding:0 30px!important;line-height:38px!important;height:40px!important;text-shadow:none!important;color:#fff !important;box-shadow:0 0px 0 #006799;border-radius:2px;text-transform:capitalize;font-weight:initial;}
+div#custom_table_length label{text-transform:uppercase;font-size:14px;}
+div#custom_table_filter label{text-transform:uppercase;font-size:14px;}
+div#custom_table_filter label strong{font-weight:700;line-height:2.5;}
+div#custom_table_filter input[type=search]{border-radius:2px;padding:0 10px!important;min-height:40px;min-width:300px;}
+.new_contest_cust_fld .hasTooltip:before{font-weight:400;font-variant:normal;font-size:21px;font-family:owfontawesome;line-height:10px;font-style:normal;color:#d76232;content:"\f059";left:15px;position:relative;}
+.new_contest_cust_fld .error{color:#d76253 !important;}
+input.cleartime:active,input.cleartime:focus{background:#1978db !important;}
+body.post-type-contestants .page-title-action{border:none!important;padding:0 30px!important;line-height:36px!important;height:36px!important;text-shadow:none!important;color:#fff !important;}
+nav.wpvc_contestant_nav_menu ul li a{text-transform:uppercase;}
+.settings_content button#save_as{background:#1978db;border:none!important;padding:0 30px!important;line-height:30px!important;height:40px!important;text-shadow:none!important;color:#fff !important;box-shadow:0 0px 0 #006799;margin-left:10px}
+body.contest_page_fieldregistration .button:hover{background:#1978db !important;font-weight:initial !important;}
+body.post-type-contestants .button-primary,body.post-type-contestants .button-primary:hover,body.post-type-contestants .button-primary:active,body.post-type-contestants .button-primary:focus{background:#1978db !important;border-color:#1978db #1978db #1978db;box-shadow:0 0px 0 #006799;color:#fff;text-decoration:none;text-shadow:none;border-radius:2px;}
+body.post-type-contestants #submitdiv .preview{background:#1978db !important;border:1px solid #1978db!important;border-color:#1978db #1978db #1978db;box-shadow:0 0px 0 #006799;color:#fff;text-decoration:none;text-shadow:none;border-radius:2px;}
+body.post-type-contestants #contest_categorydiv #contest_category-adder a{background:#1978db !important;border:1px solid #1978db!important;border-color:#1978db #1978db #1978db;box-shadow:0 0px 0 #006799;color:#fff;text-decoration:none;text-shadow:none;border-radius:2px;height:30px;line-height:28px;padding:0 12px 0px;}
+body.post-type-contestants #contest_categorydiv select{min-width:100%;width:100%;margin-top:10px;}
+body.post-type-contestants #contest_categorydiv input#contest_category-add-submit, body.post-type-contestants #contest_categorydiv input#contest_category-add-submit:focus,body.post-type-contestants #contest_categorydiv input#contest_category-add-submit:active,body.post-type-contestants #contest_categorydiv input#contest_category-add-submit:hover{background:#1978db !important;border:1px solid #1978db!important;border-color:#1978db #1978db #1978db;box-shadow:0 0px 0 #006799;color:#fff;text-decoration:none;text-shadow:none;border-radius:2px;height:30px;line-height:28px;padding:0 12px 0px;margin-top:10px;}
+body.post-type-contestants div#commentsdiv a{background:#1978db !important;border:1px solid #1978db!important;border-color:#1978db #1978db #1978db;box-shadow:0 0px 0 #006799;color:#fff;text-decoration:none;text-shadow:none;border-radius:2px;height:30px;line-height:28px;padding:0 12px 0px;margin-top:10px;}
+.responsive_video{box-shadow:0 6px 6px -5px #333 !important;}
+/**/body.taxonomy-contest_category .wrap.nosubsub,body.taxonomy-contest_category .wrap,body.contest_page_votes_purge .wrap{background:#fff;display:block;border:1px solid #eaeaea;position:relative;top:25px;}
+body.taxonomy-contest_category #wpbody-content h1{display:block;background:#f6f6f6;padding:15px;border-bottom:1px solid #eaeaea;font-size:20px;font-weight:800;text-transform:uppercase;margin-right:0;}
+body.taxonomy-contest_category #col-left{width:34%;padding-left:1%;}
+body.taxonomy-contest_category #col-right{width:64%;padding-right:1%;}
+body.taxonomy-contest_category p.search-box{float:right;margin:10px 15px;}
+body.taxonomy-contest_category .wrap #edittag{max-width:800px;padding-left:1%;padding-bottom:1%;}
+body.admin_page_move_posts #wpbody-content .wrap{margin:10px 20px 0 2px;background:#fff;display:block;border:1px solid #eaeaea;position:relative;}
+body.admin_page_move_posts form#move_contest_form{padding:1%;}
+body.admin_page_move_posts .wrap h2, body.contest_page_votes_purge .wrap h2{color:#1978db;-webkit-text-fill-color:#1978db;line-height:initial;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif,sans-serif;font-weight:800 !important;display:block;background:#f6f6f6;padding:15px;border-bottom:1px solid #eaeaea;text-transform:uppercase;margin-right:0;margin:0;}
+body.contest_page_votes_purge .narrow{padding:1%;}
+body.admin_page_votes_csv #wpbody-content .wrap{margin:10px 20px 0 2px;background:#fff;display:block;border:1px solid #eaeaea;position:relative;}
+body.admin_page_votes_csv .wrap h2{color:#1978db;-webkit-text-fill-color:#1978db;line-height:initial;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif,sans-serif;font-weight:800 !important;display:block;background:#f6f6f6;padding:15px;border-bottom:1px solid #eaeaea;text-transform:uppercase;margin-right:0;margin:0;}
+body.admin_page_votes_csv .narrow{padding:1%;}
+body.contest_page_fieldregistration .wrap{background:#fff;display:block;border:1px solid #eaeaea;position:relative;top:25px;}
+body.contest_page_fieldregistration .wrap h2{color:#1978db;-webkit-text-fill-color:#1978db;line-height:initial;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif,sans-serif;font-weight:800 !important;display:block;background:#f6f6f6;padding:15px;border-bottom:1px solid #eaeaea;text-transform:uppercase;margin-right:0;margin:0;}
+body.contest_page_fieldregistration form#form1{padding:1%;}
+body.contest_page_fieldregistration .button,body.contest_page_fieldregistration .button:active{background:#1978db !important;border-radius:2px !important;position:absolute;right:1%;top:5px;}
+body.contest_page_fieldregistration .custom_field_h3{padding:15px;border-bottom:1px solid #eaeaea;text-transform:uppercase;background:#f6f6f6;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2 ,body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{display:flex !important;width:68.15%;color:#1978db;-webkit-text-fill-color:#1978db;line-height:initial;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif,sans-serif;font-weight:800 !important;background:#f6f6f6;padding:15px;border:1px solid #eaeaea;text-transform:uppercase;margin-right:0;margin-bottom:0;border-bottom:0;}
+body.contest_page_votes_settings .select2-container--default .select2-selection--single{background-color:#fff;border:1px solid #ccc;border-radius:2px;padding:0 10px!important;min-height:40px;min-width:300px;width:300px;}
+body.contest_page_votes_settings .select2-container--default .select2-selection--single .select2-selection__rendered{color:#444;line-height:35px;}
+body.contest_page_votes_settings .select2-container--default .select2-selection--single .select2-selection__arrow{height:26px;position:absolute;top:5px;right:26px;width:20px;}
+body.contest_page_votes_settings .select2-dropdown{width:300px !important;}
+body.contest_page_votes_settings input.select2-search__field{width:100%;min-width:287px;}
+a#wpvc_vote_excerpt_controller_select_none{padding-bottom:15px;display:inline-block;background:#1978db;border:none!important;padding:0 10px!important;line-height:30px!important;height:30px!important;text-shadow:none!important;color:#fff !important;border-radius:2px;text-decoration:none;margin-bottom:30px;}
+a#wpvc_vote_excerpt_controller_select_all{padding-bottom:15px;display:inline-block;background:#1978db;border:none!important;padding:0 10px!important;line-height:30px!important;height:30px!important;text-shadow:none!important;color:#fff !important;border-radius:2px;text-decoration:none;margin-bottom:30px;}
+/************************************************ LICENSE ************************************************/body.contest_page_votes-license .wrap{background:#fff;display:block;border:1px solid #eaeaea;position:relative;top:15px;}
+body.contest_page_votes-license .wrap h2{color:#1978db;-webkit-text-fill-color:#1978db;line-height:initial;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif,sans-serif;font-weight:800 !important;display:block;background:#f6f6f6;padding:15px;border-bottom:1px solid #eaeaea;text-transform:uppercase;margin-right:0;margin:0;font-size:20px;}
+body.contest_page_votes-license .wrap form{padding:0 1%;}
+body.contest_page_votes-license .wrap > .wrap{border:none;margin:0px 0px 0 0px;border-top:1px solid #eaeaea;}
+body.contest_page_votes-license .wrap > .wrap h2{color:#1978db;-webkit-text-fill-color:#1978db;line-height:initial;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif,sans-serif;font-weight:800 !important;display:block;background:#f6f6f6;padding:15px;border-bottom:1px solid #eaeaea;text-transform:uppercase;margin-right:0;font-size:20px;margin:0 !important;}
+body.contest_page_votes-license .wrap > .wrap .regular-text{font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;padding:0 10px!important;min-height:40px;min-width:200px;margin:0;display:inline-block;vertical-align:middle;margin-right:5px;background-color:#fff;box-shadow:none !important;border-radius:2px;}
+body.contest_page_votes-license .wrap .regular-text{font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;padding:0 10px!important;min-height:40px;min-width:200px;margin:0;display:inline-block;vertical-align:middle;margin-right:5px;background-color:#fff;box-shadow:none !important;border-radius:2px;}
+body.contest_page_votes-license .wrap p.submit .button, body.contest_page_votes-license .wrap p.submit .button:hover,body.contest_page_votes-license .wrap p.submit .button:focus{background:#1978db;border:none!important;padding:0 18px!important;line-height:30px!important;height:30px!important;box-shadow:none!important;color:#fff !important;border-radius:2px;box-shadow:none;}
+body.contest_page_votes-license .wrap .button-secondary, body.contest_page_votes-license .wrap .button-secondary:hover,body.contest_page_votes-license .wrap .button-secondary:focus{background:#1978db;border:none!important;padding:0 18px!important;line-height:30px!important;height:30px!important;box-shadow:none!important;color:#fff !important;border-radius:2px;box-shadow:none;}
+/************************************************ UPGRADE ************************************************/body.contest_page_votes-upgrade .wrap{background:#fff;display:block;border:1px solid #eaeaea;position:relative;top:15px;padding-bottom:1%;}
+body.contest_page_votes-upgrade .wrap h2{color:#1978db;-webkit-text-fill-color:#1978db;line-height:initial;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif,sans-serif;font-weight:800 !important;display:block;background:#f6f6f6;padding:15px;border-bottom:1px solid #eaeaea;text-transform:uppercase;margin-right:0;margin:0;font-size:20px;}
+body.contest_page_votes-upgrade .wrap .narrow{padding:0 1%;}
+body.contest_page_votes-upgrade .wrap .button,body.contest_page_votes-upgrade .wrap .button:hover,body.contest_page_votes-upgrade .wrap .button:focus{background:#1978db !important;border:none!important;padding:0 18px!important;line-height:30px!important;height:30px!important;color:#fff !important;border-radius:2px !important;box-shadow:none !important;}
+@media (min-width:320px) and (max-width:480px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+body.taxonomy-contest_category #col-left{width:90%;padding-left:0;margin:auto;}
+body.post-type-contestants #wpcontent input[type=search], body.post-type-contestants #wpcontent input[type=text], body.post-type-contestants #wpcontent select, body.admin_page_fieldcontestant #wpcontent select, body.admin_page_fieldcontestant #wpcontent input[type=text], body.contest_page_fieldregistration #wpcontent select, body.contest_page_fieldregistration #wpcontent input[type=text], body.admin_page_votes_export #vote_contest_term, body.admin_page_votes_export select.export_contestant, body.admin_page_votinglogs select, body.admin_page_votes_csv select, body.contest_page_votes_purge #vote_contest_term, body.contest_page_votes_settings select, body.contest_page_votes_settings input[type=search], body.contest_page_votes_settings input[type=text], body.admin_page_votes_setting_paginate input[type=text], body.admin_page_votes_setting_paginate select{border-radius:2px;padding:0 10px!important;min-height:40px;min-width:100%;width:100%;}
+body.post-type-contestants #wpcontent input[type=submit]{margin-top:30px;}
+body.taxonomy-contest_category #col-right{width:90%;margin:auto;}
+body.taxonomy-contest_category #col-right table.fixed{overflow-x:scroll;width:100%;overflow:hidden;display:flow-root;}
+body.taxonomy-contest_category #col-right table.fixed tbody#the-list{display:flex;width:100%;flex-wrap:wrap;flex-flow:column;}
+#mobile-contestant-menu{background:#1978db;display:block;border-radius:2px;}
+body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;display:none;}
+a.wpvc_add_manualvotes{padding:0px 3px !important;display:block !important;word-break:break-all !important;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -9px !important;color:#d76232 !important;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+p.search-box{float:none;position:relative;bottom:0;width:93%;height:90px;margin:auto;}
+}
+@media (min-width:320px) and (max-width:568px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+#mobile-contestant-menu{background:#1978db;display:block;border-radius:2px;}
+body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;display:none;}
+a.wpvc_add_manualvotes{padding:0px 3px !important;display:block !important;word-break:break-all !important;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -9px !important;color:#d76232 !important;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+p.search-box{float:none;position:relative;bottom:0;width:93%;height:90px;margin:auto;}
+}
+@media (min-width:375px) and (max-width:667px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+#mobile-contestant-menu{background:#1978db;display:block;border-radius:2px;}
+body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;display:none;}
+a.wpvc_add_manualvotes{padding:0px 3px !important;display:block !important;word-break:break-all !important;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -9px !important;color:#d76232 !important;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+}
+@media (min-width:481px) and (max-width:640px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+#mobile-contestant-menu{background:#1978db;display:block;border-radius:2px;}
+body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;display:none;}
+a.wpvc_add_manualvotes{padding:0px 3px !important;display:block !important;word-break:break-all !important;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -9px !important;color:#d76232 !important;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+}
+@media (min-width:414px) and (max-width:736px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+#mobile-contestant-menu{background:#1978db;display:block;border-radius:2px;}
+body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;display:none;}
+a.wpvc_add_manualvotes{padding:0px 3px !important;display:block !important;word-break:break-all !important;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -9px !important;color:#d76232 !important;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+}
+@media (min-width:641px) and (max-width:767px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+#mobile-contestant-menu{background:#1978db;display:block;border-radius:2px;}
+body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;display:none;}
+a.wpvc_add_manualvotes{padding:0px 3px !important;display:block !important;word-break:break-all !important;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -8px;color:#d76232 !important;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+}
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+ body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;}
+a.wpvc_add_manualvotes{padding:0px 3px !important;display:block !important;word-break:break-all !important;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -8px;color:#d76232 !important;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+}
+@media (min-width:768px) and (max-width:1024px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+ body.taxonomy-contest_category #col-left{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category #col-right{width:97%;padding:0;margin:auto;}
+body.taxonomy-contest_category div#col-container{display:flex;flex-flow:column;}
+body.taxonomy-contest_category #col-right .col-wrap{padding:0 0 0 0px;margin-bottom:25px;}
+body.taxonomy-contest_category table.fixed{display:flex;flex-basis:0;flex-wrap:wrap;flex-flow:column;}
+body.taxonomy-contest_category #submit{margin-top:25px;}
+body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;}
+body.post-type-wpvc_coupon div#wpcontent a.page-title-action{top:3%;right:1.5%;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -8px;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+ }
+@media (min-width:768px) and (max-width:800px){body.taxonomy-contest_category table.fixed tbody#the-list td{position:relative;clear:both;display:table-cell;padding:10px 0;}
+body.taxonomy-contest_category table.fixed tbody#the-list td::before{position:relative;left:0;}
+body.taxonomy-contest_category table.fixed thead th{width:auto !important;display:table-cell !important }
+body.taxonomy-contest_category table.fixed th.column-primary~th{display:table-cell !important;}
+body.taxonomy-contest_category .tablenav.bottom{display:flex;flex-flow:column;align-items:flex-start;overflow:hidden;height:calc(14vh);}
+p.search-box{float:none;position:relative !important;bottom:0;width:98%;height:90px;margin-bottom:20px;}
+body.contest_page_votes_purge .wrap{background:#fff;display:block;border:1px solid #eaeaea;position:relative;top:25px;width:96%;padding:0;margin:0;}
+input[type=checkbox]:checked:before{font:400 30px/1 dashicons;margin:-6px -8px;}
+.sidebar_wpvc_vote{width:100%;float:left;margin-right:5%;min-width:200px;}
+body.contest_page_fieldregistration .postbox{width:97% !important;}
+nav.wpvc_settings_menu ul{display:flex;flex-wrap:wrap;}
+nav.wpvc_settings_menu li{flex:0 0 19%;}
+.wpvc_settings_menu .owvotingicon{width:100%;}
+ .wpvc_settings_menu ul li a{text-decoration:none;justify-content:center;display:grid;margin:0;padding:0;}
+.wpvc_settings_menu ul li{background:transparent;border:1px solid #eaeaea !important;}
+nav.wpvc_settings_menu ul li.current{background:#f3f7f8;border-left:1px;border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;box-shadow:none !important;}
+span.wpvc_vote_links{text-align:center;padding:10px 0 !important;}
+body.contest_page_votes_settings .sidebar_wpvc_vote+h2.color_h2{width:97.5%;padding-right:0;}
+.settings_upd{margin-left:16%!important;margin-top:15px!important;width:68.5%;overflow:hidden;}
+.settings_content{width:100%;}
+.owt-accordion ul li{width:100% !important;}
+.owt-accordion tr{display:flex !important;padding-top:30px !important;}
+body.admin_page_votes_setting_paginate .sidebar_wpvc_vote+h2.color_h2{width:97.5% !important;padding-right:0px !important;}
+.mail_copy_textarea{padding:0 !important;line-height:40px;}
+.copy_text{position:absolute;}
+}
+@media (min-width:1025px) and (max-width:1280px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+ }
+@media screen and (max-width:1366px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+ }
+ @media screen and (max-width:1280px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+}
+ @media screen and (max-width:1440px){.wpvc_voting_index .info{line-height:30px !important;}
+.overview-page ul ul li{background:none !important;}
+.wpvc_voting_index ul.overview-listing li b{word-break:break-all;}
+.auto-fold #wpcontent{padding-left:25px;}
+}

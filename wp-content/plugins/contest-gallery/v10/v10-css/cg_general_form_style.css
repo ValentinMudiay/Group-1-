@@ -1,0 +1,34 @@
+.cg_form_div .cg-check-agreement-container{
+    display: flex;
+}
+
+.cg_form_div .cg-check-agreement-container .cg-check-agreement-checkbox{
+    width: auto !important;
+}
+
+.cg_form_div .cg-check-agreement-container .cg-check-agreement-html{
+    width: auto !important;
+    margin-left: 10px;
+    word-break: break-all;
+}
+
+.cg_form_div .cg-check-agreement-container .cg-check-agreement-html > p:first-child{
+    margin-top: 1px !important;
+}
+
+.cg_form_div .cg-user-html-field{
+    word-break: break-all;
+}
+
+
+.cg_form_div.cg_html_field_class{
+    word-break: break-all;
+}
+
+.cg_hide{
+    display: none !important;
+}
+
+#cg_activation{
+    padding-top: 50px;
+}

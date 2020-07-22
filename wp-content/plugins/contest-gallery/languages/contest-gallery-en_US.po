@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contest Gallery\n"
+"POT-Creation-Date: 2020-04-13 08:11+0200\n"
+"PO-Revision-Date: 2020-04-13 08:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: check-language.php:34
+msgid "Sort by"
+msgstr "Sort by"
+
+#: check-language.php:36
+msgid "Comments"
+msgstr "Comments"
+
+#: check-language.php:38
+msgid "Vote first"
+msgstr "Vote first"
+
+#: check-language.php:40
+msgid "Slider view"
+msgstr "Slider view"
+
+#: check-language.php:42
+msgid "Height view"
+msgstr "Height view"
+
+#: check-language.php:44
+msgid "Thumb view"
+msgstr "Thumb view"
+
+#: check-language.php:46
+msgid "Row view"
+msgstr "Row view"
+
+#: check-language.php:48
+msgid "Random"
+msgstr "Random"
+
+#: check-language.php:50
+msgid "Date descend"
+msgstr "Date descend"
+
+#: check-language.php:52
+msgid "Date ascend"
+msgstr "Date ascend"
+
+#: check-language.php:54
+msgid "Comments descend"
+msgstr "Comments descend"
+
+#: check-language.php:56
+msgid "Comments ascend"
+msgstr "Comments ascend"
+
+#: check-language.php:58
+msgid "Rating descend"
+msgstr "Rating descend"
+
+#: check-language.php:60
+msgid "Rating ascend"
+msgstr "Rating ascend"
+
+#: check-language.php:62
+msgid "Rating quantity descend"
+msgstr "Rating quantity descend"
+
+#: check-language.php:64
+msgid "Rating quantity ascend"
+msgstr "Rating quantity ascend"
+
+#: check-language.php:66
+msgid "Rating average descend"
+msgstr "Rating average descend"
+
+#: check-language.php:68
+msgid "Rating average ascend"
+msgstr "Rating average ascend"
+
+#: check-language.php:70
+msgid "Full size"
+msgstr "Full size"
+
+#: check-language.php:72
+msgid "Picture comments"
+msgstr "Picture comments"
+
+#: check-language.php:74
+msgid "Your comment"
+msgstr "Your comment"
+
+#: check-language.php:76
+msgid "Name"
+msgstr "Name"
+
+#: check-language.php:78
+msgid "Comment"
+msgstr "Comment"
+
+#: check-language.php:80
+msgid "I am not a robot"
+msgstr "I am not a robot"
+
+#: check-language.php:82
+msgid "You can not vote in own gallery"
+msgstr "You can not vote in own gallery"
+
+#: check-language.php:84
+msgid "You can not comment in own gallery"
+msgstr "You can not comment in own gallery"
+
+#: check-language.php:86
+msgid "Send"
+msgstr "Send"
+
+#: check-language.php:89
+msgid "Image was deleted"
+msgstr "Image was deleted"
+
+#: check-language.php:94
+msgid "Delete image?"
+msgstr "Delete image?"
+
+#: check-language.php:96
+msgid "Image successfully deleted"
+msgstr "Image successfully deleted"
+
+#: check-language.php:99
+msgid "The name field must contain two characters or more"
+msgstr "The name field must contain two characters or more"
+
+#: check-language.php:101
+msgid "The comment field must contain three characters or more"
+msgstr "The comment field must contain three characters or more"
+
+#: check-language.php:103
+msgid "Plz check the checkbox to prove that you are not a robot"
+msgstr "Plz check the checkbox to prove that you are not a robot"
+
+#: check-language.php:105
+msgid "Thank you for your comment"
+msgstr "Thank you for your comment"
+
+#: check-language.php:107
+msgid "You have already voted for this picture"
+msgstr "You have already voted for this picture"
+
+#: check-language.php:109
+msgid "You have already used all your votes"
+msgstr "You have already used all your votes"
+
+#: check-language.php:111
+msgid "It is not allowed to vote for your own picture"
+msgstr "It is not allowed to vote for your own picture"
+
+#: check-language.php:113
+msgid "Only registered users are allowed to vote"
+msgstr "Only registered users are allowed to vote"
+
+#: check-language.php:115
+msgid "Back to gallery"
+msgstr "Back to gallery"
+
+#: check-language.php:117
+msgid "This file type is not allowed"
+msgstr "This file type is not allowed"
+
+#: check-language.php:119
+msgid "The selected file is too large, max allowed size"
+msgstr "The selected file is too large, max allowed size"
+
+#: check-language.php:121
+msgid "The resolution of this image is"
+msgstr "The resolution of this image is"
+
+#: check-language.php:123
+msgid "Maximum number of images for one upload is"
+msgstr "Maximum number of images for one upload is"
+
+#: check-language.php:124
+msgid "Minimum number of images for one upload is"
+msgstr "Minimum number of images for one upload is"
+
+#: check-language.php:126
+msgid "Maximum allowed resolution for JPG is"
+msgstr "Maximum allowed resolution for JPG is"
+
+#: check-language.php:128
+msgid "Maximum allowed width for JPG is"
+msgstr "Maximum allowed width for JPG is"
+
+#: check-language.php:130
+msgid "Maximum allowed height for JPG is"
+msgstr "Maximum allowed height for JPG is"
+
+#: check-language.php:132
+msgid "Maximum allowed resolution for PNG is"
+msgstr "Maximum allowed resolution for PNG is"
+
+#: check-language.php:134
+msgid "Maximum allowed width for PNG is"
+msgstr "Maximum allowed width for PNG is"
+
+#: check-language.php:135
+msgid "Maximum allowed height for PNG is"
+msgstr "Maximum allowed height for PNG is"
+
+#: check-language.php:137
+msgid "Maximum allowed resolution for GIF is"
+msgstr "Maximum allowed resolution for GIF is"
+
+#: check-language.php:139
+msgid "Maximum allowed width for GIF is"
+msgstr "Maximum allowed width for GIF is"
+
+#: check-language.php:141
+msgid "Maximum allowed height for GIF is"
+msgstr "Maximum allowed height for GIF is"
+
+#: check-language.php:143
+msgid "You have to check this agreement"
+msgstr "You have to check this agreement"
+
+#: check-language.php:145
+msgid "This email is not valid"
+msgstr "This email is not valid"
+
+#: check-language.php:147
+msgid "Min amount of characters"
+msgstr "Min amount of characters"
+
+#: check-language.php:149
+msgid "Max amount of characters"
+msgstr "Max amount of characters"
+
+#: check-language.php:151
+msgid "Select your image"
+msgstr "Select your image"
+
+#: check-language.php:153
+msgid "The photo contest has not started yet"
+msgstr "The photo contest has not started yet"
+
+#: check-language.php:155
+msgid "The photo contest is over"
+msgstr "The photo contest is over"
+
+#: check-language.php:157
+msgid "Hold left mouse to see user info"
+msgstr "Hold left mouse to see user info"
+
+#: check-language.php:159
+msgid "Maximum amount of uploads per user is"
+msgstr "Maximum amount of uploads per user is"
+
+#: check-language.php:164
+msgid "This email address is already registered"
+msgstr "This email address is already registered"
+
+#: check-language.php:166
+msgid "This username is already taken"
+msgstr "This username is already taken"
+
+#: check-language.php:168
+msgid "Username or email"
+msgstr "Username or email"
+
+#: check-language.php:170
+msgid "Username or email required"
+msgstr "Username or email required"
+
+#: check-language.php:172
+msgid "Username or email does not exist"
+msgstr "Username or email does not exist"
+
+#: check-language.php:174
+msgid "This nickname is already taken"
+msgstr "This nickname is already taken"
+
+#: check-language.php:176
+msgid "Email"
+msgstr "Email"
+
+#: check-language.php:178
+msgid "Email required"
+msgstr "Email required"
+
+#: check-language.php:180
+msgid "Email does not exist"
+msgstr "Email does not exist"
+
+#: check-language.php:182
+msgid "Password"
+msgstr "Password"
+
+#: check-language.php:184
+msgid "Password required"
+msgstr "Password required"
+
+#: check-language.php:186
+msgid "Password is wrong"
+msgstr "Password is wrong"
+
+#: check-language.php:188
+msgid "You are already logged in"
+msgstr "You are already logged in"
+
+#: check-language.php:190
+msgid "Please fill out"
+msgstr "Please fill out"
+
+#: check-language.php:192
+msgid "Passwords do not match"
+msgstr "Passwords do not match"
+
+#: check-language.php:194
+msgid "Upload"
+msgstr "Upload"
+
+#: check-language.php:196
+msgid "Register"
+msgstr "Register"
+
+#: check-language.php:198
+msgid "Login"
+msgstr "Login"
+
+#: check-language.php:199
+msgid "Please select"
+msgstr "Please select"
+
+#: check-language.php:201
+msgid "You have not selected"
+msgstr "You have not selected"
+
+#: check-language.php:203
+msgid "Please confirm"
+msgstr "Please confirm"
+
+#: check-language.php:205
+msgid "Image is not activated"
+msgstr "Image is not activated"
+
+#: check-language.php:207
+msgid "Your email could not be confirmed."
+msgstr "Your email could not be confirmed."
+
+#: check-language.php:209
+msgid "Please enter a valid URL"
+msgstr "Please enter a valid URL"
+
+#: check-language.php:211
+msgid "Other"
+msgstr "Other"
+
+#: check-language.php:214
+msgid "Yes"
+msgstr "Yes"
+
+#: check-language.php:215
+msgid "No"
+msgstr "No"
+
+#: functions/general/sql/contest-gallery-create-tables.php:411
+msgid "Contest Gallery User"
+msgstr ""
+
+#: index.php:618
+msgid "Account"
+msgstr "Account"
+
+#: index.php:619
+msgid "Logout?"
+msgstr "Logout?"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Contest Gallery"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Professional photo contest gallery plugin for WordPress. Create image upload "
+"frontend forms. Create user registration frontend forms. Create responsive "
+"galleries and allow to vote images."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.contest-gallery.com/"
+msgstr ""
